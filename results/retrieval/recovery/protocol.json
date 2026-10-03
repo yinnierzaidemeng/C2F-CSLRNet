@@ -1,0 +1,129 @@
+{
+  "name": "E3 multi-system component recovery",
+  "schema": 1,
+  "frozen_utc": "2026-09-07T08:45:40.921349+00:00",
+  "engineering": false,
+  "instances": [
+    {
+      "family": "linear",
+      "instance": 0,
+      "data_seed": 73000
+    },
+    {
+      "family": "linear",
+      "instance": 1,
+      "data_seed": 73001
+    },
+    {
+      "family": "linear",
+      "instance": 2,
+      "data_seed": 73002
+    },
+    {
+      "family": "linear",
+      "instance": 3,
+      "data_seed": 73003
+    },
+    {
+      "family": "linear",
+      "instance": 4,
+      "data_seed": 73004
+    },
+    {
+      "family": "nonlinear",
+      "instance": 0,
+      "data_seed": 74000
+    },
+    {
+      "family": "nonlinear",
+      "instance": 1,
+      "data_seed": 74001
+    },
+    {
+      "family": "nonlinear",
+      "instance": 2,
+      "data_seed": 74002
+    },
+    {
+      "family": "nonlinear",
+      "instance": 3,
+      "data_seed": 74003
+    },
+    {
+      "family": "nonlinear",
+      "instance": 4,
+      "data_seed": 74004
+    },
+    {
+      "family": "periodic_distractors",
+      "instance": 0,
+      "data_seed": 75000
+    },
+    {
+      "family": "periodic_distractors",
+      "instance": 1,
+      "data_seed": 75001
+    },
+    {
+      "family": "periodic_distractors",
+      "instance": 2,
+      "data_seed": 75002
+    },
+    {
+      "family": "periodic_distractors",
+      "instance": 3,
+      "data_seed": 75003
+    },
+    {
+      "family": "periodic_distractors",
+      "instance": 4,
+      "data_seed": 75004
+    }
+  ],
+  "train_seeds": [
+    42,
+    43,
+    44
+  ],
+  "core_variants": [
+    "full",
+    "shared",
+    "radius0"
+  ],
+  "diagnostics": [
+    "oracle",
+    "exhaustive"
+  ],
+  "diagnostic_scope": "first generated instance per family, training seed 42; not selected by outcomes",
+  "epochs": 20,
+  "patience": 5,
+  "learning_rate": 0.001,
+  "logical_batch": 128,
+  "micro_batch": 128,
+  "exhaustive_micro_batch": 16,
+  "export_batch": 32,
+  "amp": false,
+  "tf32": true,
+  "gradient_clip": 1.0,
+  "window": 64,
+  "normal_probe_windows": 512,
+  "train_length": 4096,
+  "fit_end": 3686,
+  "normal_probe_length": 1024,
+  "diagnostic_length": 4096,
+  "model_selection": "normal chronological validation forecasting MSE only; no edge labels, anomaly labels or recovery outcomes",
+  "preprocessing": "fit-only observed standardization/spectral reliability; oracle gets separately standardized true components",
+  "data_seed_rule": "generator accepts data seed only; training seeds never alter the generated system",
+  "metrics": "matched Top-1/8; tolerances 0/1/2; strict and predeclared periodic-equivalence recall; block coverage; source-conditioned top-ranked lag MAE; edge-membership AP",
+  "shared_semantics": "shared source-delay graph applies to all three value branches; broadcast with uniform component prior, with exact tie-aware evaluation",
+  "uncertainty": "average training seeds per generated instance before intervals; instances, not seeds/edges/windows, are independent replicates",
+  "code_hashes": {
+    "scripts/run_component_recovery.py": "02e72acb0f11f27492296968ca7d63f03561f324a376b8e7edf4884a128a62b4",
+    "scripts/component_systems.py": "38dd7a5b562db4861ddcec9bd109d036dbd00aa7f87e51ab51b00d07e13ee0bd",
+    "scripts/component_recovery_models.py": "044dd51f608d18306038fcb8464e178ec14a4aa956bea99a51b9e261658e938b",
+    "scripts/component_recovery_metrics.py": "b9948e135bd262d5d3cfc16d05ed2a31f520897b4a19e78788102b84458a2f7f",
+    "scripts/component_experiment_io.py": "e9d2759d471ac2d56d7278212f7d887b72a968318fe40a3a1132de8a224fbf90",
+    "src/model.py": "1dbc64dfdcc05ce5bbdadd097094ad308aa842fe822d2870fa8907b470c8ef1d",
+    "src/data.py": "34b7a6c86db4c56a9e052c6eb5efc5818a98fc5fc478e62d44f6add0079af464"
+  }
+}

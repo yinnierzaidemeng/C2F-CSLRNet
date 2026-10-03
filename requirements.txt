@@ -1,0 +1,6 @@
+# Dependency versions recorded with the frozen research environment.
+# Select the appropriate PyTorch CPU/CUDA wheel separately for your machine.
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.0.3
+torch==2.5.1

@@ -1,0 +1,2099 @@
+{
+  "protocol_sha256": "276ab69b0ccb84493eab21867784b99c69868d086cf813c6b06c260c7f354b08",
+  "scope": "Retrospective perturbation audit; no independent-confirmatory or universal efficacy claim",
+  "averaging": "5 permutations -> 3 training seeds -> independent generated systems",
+  "unit_count": 45,
+  "normal_probe_windows_per_unit": 512,
+  "per_seed": [
+    {
+      "unit_id": "linear_73000/seed_42",
+      "family": "linear",
+      "data_seed": 73000,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3379872296082269,
+          "permutation_mean": 0.3993905946715102,
+          "permutation_sample_sd": 0.0014531925352067436,
+          "learned_benefit": 0.06140336506328331
+        },
+        "mse_planted": {
+          "learned": 0.2639065656044598,
+          "permutation_mean": 0.31962482276766196,
+          "permutation_sample_sd": 0.0035879452007454857,
+          "learned_benefit": 0.05571825716320217
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73000/seed_43",
+      "family": "linear",
+      "data_seed": 73000,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.34729288728487284,
+          "permutation_mean": 0.35832004099509823,
+          "permutation_sample_sd": 0.00012731729889832265,
+          "learned_benefit": 0.01102715371022539
+        },
+        "mse_planted": {
+          "learned": 0.27341918256462877,
+          "permutation_mean": 0.2829262655894086,
+          "permutation_sample_sd": 0.0015716482319319536,
+          "learned_benefit": 0.009507083024779817
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73000/seed_44",
+      "family": "linear",
+      "data_seed": 73000,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3385503672341293,
+          "permutation_mean": 0.3538183740264581,
+          "permutation_sample_sd": 0.0003251882312171479,
+          "learned_benefit": 0.015268006792328814
+        },
+        "mse_planted": {
+          "learned": 0.26377765742869563,
+          "permutation_mean": 0.28069711282771476,
+          "permutation_sample_sd": 0.00039828101151737153,
+          "learned_benefit": 0.016919455399019123
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_42",
+      "family": "linear",
+      "data_seed": 73001,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.28210811999342245,
+          "permutation_mean": 0.29420343072917854,
+          "permutation_sample_sd": 0.0008144079904021058,
+          "learned_benefit": 0.012095310735756093
+        },
+        "mse_planted": {
+          "learned": 0.22184958371406457,
+          "permutation_mean": 0.23820639918570588,
+          "permutation_sample_sd": 0.0007580388923645312,
+          "learned_benefit": 0.016356815471641306
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_43",
+      "family": "linear",
+      "data_seed": 73001,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.27643807967715056,
+          "permutation_mean": 0.2808284655651261,
+          "permutation_sample_sd": 0.0006159852839307398,
+          "learned_benefit": 0.004390385887975523
+        },
+        "mse_planted": {
+          "learned": 0.21178536947219148,
+          "permutation_mean": 0.21892680959524857,
+          "permutation_sample_sd": 0.0013324538525683527,
+          "learned_benefit": 0.007141440123057091
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_44",
+      "family": "linear",
+      "data_seed": 73001,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.27811849786639375,
+          "permutation_mean": 0.2915852936291574,
+          "permutation_sample_sd": 0.0007565268247426965,
+          "learned_benefit": 0.013466795762763661
+        },
+        "mse_planted": {
+          "learned": 0.215007385829623,
+          "permutation_mean": 0.23319571751011234,
+          "permutation_sample_sd": 0.0014945686166051996,
+          "learned_benefit": 0.018188331680489334
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_42",
+      "family": "linear",
+      "data_seed": 73002,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.27223395273163903,
+          "permutation_mean": 0.28152183106341944,
+          "permutation_sample_sd": 0.0016658086620242368,
+          "learned_benefit": 0.009287878331780408
+        },
+        "mse_planted": {
+          "learned": 0.23158389923219266,
+          "permutation_mean": 0.24382286685945162,
+          "permutation_sample_sd": 0.002011322436601739,
+          "learned_benefit": 0.012238967627258956
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_43",
+      "family": "linear",
+      "data_seed": 73002,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.26251110721666626,
+          "permutation_mean": 0.26731631764300523,
+          "permutation_sample_sd": 0.0013980807981079123,
+          "learned_benefit": 0.004805210426338968
+        },
+        "mse_planted": {
+          "learned": 0.22320327605091497,
+          "permutation_mean": 0.23126681110332675,
+          "permutation_sample_sd": 0.001215558220310075,
+          "learned_benefit": 0.00806353505241178
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.02222222222222222,
+          "permutation_sample_sd": 0.04969039949999532,
+          "learned_benefit": -0.02222222222222222
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_44",
+      "family": "linear",
+      "data_seed": 73002,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.26790727021857497,
+          "permutation_mean": 0.28206468124136774,
+          "permutation_sample_sd": 0.0003703281676317232,
+          "learned_benefit": 0.014157411022792776
+        },
+        "mse_planted": {
+          "learned": 0.22816122601224856,
+          "permutation_mean": 0.2451369836941737,
+          "permutation_sample_sd": 0.0005486427311642562,
+          "learned_benefit": 0.016975757681925135
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.08888888888888888,
+          "permutation_sample_sd": 0.049690399499995326,
+          "learned_benefit": 0.022222222222222227
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.31111111111111106,
+          "permutation_sample_sd": 0.04969039949999532,
+          "learned_benefit": 0.022222222222222254
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_42",
+      "family": "linear",
+      "data_seed": 73003,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3247755075761022,
+          "permutation_mean": 0.3566926760713979,
+          "permutation_sample_sd": 0.0032241192710694786,
+          "learned_benefit": 0.03191716849529569
+        },
+        "mse_planted": {
+          "learned": 0.25246939775292393,
+          "permutation_mean": 0.29008251595952844,
+          "permutation_sample_sd": 0.0019053376058659308,
+          "learned_benefit": 0.03761311820660451
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_43",
+      "family": "linear",
+      "data_seed": 73003,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3258513474161579,
+          "permutation_mean": 0.33708694627739766,
+          "permutation_sample_sd": 0.0017933763462199305,
+          "learned_benefit": 0.01123559886123976
+        },
+        "mse_planted": {
+          "learned": 0.2597602624973845,
+          "permutation_mean": 0.2746955701062334,
+          "permutation_sample_sd": 0.001009553564372173,
+          "learned_benefit": 0.014935307608848924
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_44",
+      "family": "linear",
+      "data_seed": 73003,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3288203319524421,
+          "permutation_mean": 0.3440157667099518,
+          "permutation_sample_sd": 0.0009253961902792852,
+          "learned_benefit": 0.01519543475750973
+        },
+        "mse_planted": {
+          "learned": 0.2610560385871905,
+          "permutation_mean": 0.27983654805789127,
+          "permutation_sample_sd": 0.001727456108883823,
+          "learned_benefit": 0.018780509470700757
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_42",
+      "family": "linear",
+      "data_seed": 73004,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3242214393029743,
+          "permutation_mean": 0.35212919417359156,
+          "permutation_sample_sd": 0.0016349870835459682,
+          "learned_benefit": 0.027907754870617252
+        },
+        "mse_planted": {
+          "learned": 0.26279760104742933,
+          "permutation_mean": 0.3013666262567,
+          "permutation_sample_sd": 0.0044148544784304,
+          "learned_benefit": 0.03856902520927069
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_43",
+      "family": "linear",
+      "data_seed": 73004,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.31959612080969524,
+          "permutation_mean": 0.3335666920139132,
+          "permutation_sample_sd": 0.0008833991853904039,
+          "learned_benefit": 0.013970571204217963
+        },
+        "mse_planted": {
+          "learned": 0.2650111097633228,
+          "permutation_mean": 0.27925515519247895,
+          "permutation_sample_sd": 0.0015633463056346538,
+          "learned_benefit": 0.014244045429156138
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.13333333333333336,
+          "permutation_sample_sd": 0.049690399499995326,
+          "learned_benefit": -0.022222222222222254
+        }
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_44",
+      "family": "linear",
+      "data_seed": 73004,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.32530927770067924,
+          "permutation_mean": 0.33860515209842734,
+          "permutation_sample_sd": 0.0009717480924088006,
+          "learned_benefit": 0.013295874397748098
+        },
+        "mse_planted": {
+          "learned": 0.26735913890274127,
+          "permutation_mean": 0.2855346740852061,
+          "permutation_sample_sd": 0.0015722888128125731,
+          "learned_benefit": 0.01817553518246484
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": 0.11111111111111108
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.32498902083118325,
+          "permutation_mean": 0.34545684039861363,
+          "permutation_sample_sd": 0.0007425171325941834,
+          "learned_benefit": 0.02046781956743038
+        },
+        "mse_planted": {
+          "learned": 0.2956413538050912,
+          "permutation_mean": 0.31090656084720875,
+          "permutation_sample_sd": 0.0017994351500005149,
+          "learned_benefit": 0.015265207042117535
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3153006532678499,
+          "permutation_mean": 0.3267265909621169,
+          "permutation_sample_sd": 0.0007655581870208337,
+          "learned_benefit": 0.01142593769426703
+        },
+        "mse_planted": {
+          "learned": 0.288730691188478,
+          "permutation_mean": 0.2998380391715605,
+          "permutation_sample_sd": 0.0016778493476546042,
+          "learned_benefit": 0.011107347983082494
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.32063988510225955,
+          "permutation_mean": 0.33636235761759914,
+          "permutation_sample_sd": 0.001300460380170346,
+          "learned_benefit": 0.01572247251533959
+        },
+        "mse_planted": {
+          "learned": 0.2939807128893851,
+          "permutation_mean": 0.30534089725185,
+          "permutation_sample_sd": 0.0013772694278375377,
+          "learned_benefit": 0.011360184362464887
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3403688503417573,
+          "permutation_mean": 0.36173829718833367,
+          "permutation_sample_sd": 0.0029801129769975307,
+          "learned_benefit": 0.02136944684657638
+        },
+        "mse_planted": {
+          "learned": 0.3235382897457757,
+          "permutation_mean": 0.35043749902763,
+          "permutation_sample_sd": 0.004372724263598552,
+          "learned_benefit": 0.026899209281854297
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.34251414262914753,
+          "permutation_mean": 0.3654356002209804,
+          "permutation_sample_sd": 0.0016734307900305103,
+          "learned_benefit": 0.022921457591832894
+        },
+        "mse_planted": {
+          "learned": 0.32695089110191855,
+          "permutation_mean": 0.35454593805555956,
+          "permutation_sample_sd": 0.0019749875635517258,
+          "learned_benefit": 0.02759504695364101
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.08888888888888888,
+          "permutation_sample_sd": 0.04969039949999532,
+          "learned_benefit": 0.022222222222222227
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3401717122932597,
+          "permutation_mean": 0.3532273301671406,
+          "permutation_sample_sd": 0.0005699546644003495,
+          "learned_benefit": 0.013055617873880876
+        },
+        "mse_planted": {
+          "learned": 0.32401365837884083,
+          "permutation_mean": 0.3396707734580532,
+          "permutation_sample_sd": 0.0018271891886778525,
+          "learned_benefit": 0.015657115079212358
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.06666666666666667,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": 0.04444444444444444
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.271242807882911,
+          "permutation_mean": 0.27808945231058757,
+          "permutation_sample_sd": 0.00044831172240475246,
+          "learned_benefit": 0.006846644427676574
+        },
+        "mse_planted": {
+          "learned": 0.20587527933468194,
+          "permutation_mean": 0.21706521811310334,
+          "permutation_sample_sd": 0.001880285046300869,
+          "learned_benefit": 0.011189938778421393
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": -2.7755575615628914e-17
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2656961156499946,
+          "permutation_mean": 0.26993009770851223,
+          "permutation_sample_sd": 0.0005723707340054996,
+          "learned_benefit": 0.004233982058517605
+        },
+        "mse_planted": {
+          "learned": 0.1995316342950899,
+          "permutation_mean": 0.2039349120506897,
+          "permutation_sample_sd": 0.000708729968607862,
+          "learned_benefit": 0.004403277755599788
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": -2.7755575615628914e-17
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2657471682518021,
+          "permutation_mean": 0.2679047533389903,
+          "permutation_sample_sd": 0.0004990063721914047,
+          "learned_benefit": 0.002157585087188163
+        },
+        "mse_planted": {
+          "learned": 0.2007179438464001,
+          "permutation_mean": 0.2045981859871473,
+          "permutation_sample_sd": 0.0011567809853283454,
+          "learned_benefit": 0.0038802421407471976
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.3333333333333333,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3039946850110478,
+          "permutation_mean": 0.32630811724579983,
+          "permutation_sample_sd": 0.0014992768717520754,
+          "learned_benefit": 0.022313432234752018
+        },
+        "mse_planted": {
+          "learned": 0.3035384054505674,
+          "permutation_mean": 0.32768983593006884,
+          "permutation_sample_sd": 0.0019886756841118454,
+          "learned_benefit": 0.024151430479501468
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3021727933755609,
+          "permutation_mean": 0.31163971086866404,
+          "permutation_sample_sd": 0.0011625167234924883,
+          "learned_benefit": 0.009466917493103133
+        },
+        "mse_planted": {
+          "learned": 0.3061650470980702,
+          "permutation_mean": 0.31547037275033757,
+          "permutation_sample_sd": 0.0014455339338508397,
+          "learned_benefit": 0.009305325652267382
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.30430282877915266,
+          "permutation_mean": 0.30775125606696807,
+          "permutation_sample_sd": 0.0010070891665199346,
+          "learned_benefit": 0.0034484272878154143
+        },
+        "mse_planted": {
+          "learned": 0.3048304722396742,
+          "permutation_mean": 0.3098892889757513,
+          "permutation_sample_sd": 0.000716967729672171,
+          "learned_benefit": 0.00505881673607711
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3173601497532118,
+          "permutation_mean": 0.33428104939648223,
+          "permutation_sample_sd": 0.0019699202589002736,
+          "learned_benefit": 0.016920899643270426
+        },
+        "mse_planted": {
+          "learned": 0.29530153557259237,
+          "permutation_mean": 0.3199950730607421,
+          "permutation_sample_sd": 0.0030907201291020783,
+          "learned_benefit": 0.02469353748814973
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.31602051670008746,
+          "permutation_mean": 0.32429228832485746,
+          "permutation_sample_sd": 0.0007416498198735196,
+          "learned_benefit": 0.008271771624769997
+        },
+        "mse_planted": {
+          "learned": 0.28802975812902026,
+          "permutation_mean": 0.29695712173928884,
+          "permutation_sample_sd": 0.0016452458781929036,
+          "learned_benefit": 0.00892736361026858
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3198713686475064,
+          "permutation_mean": 0.32444254537124306,
+          "permutation_sample_sd": 0.0008110262262048424,
+          "learned_benefit": 0.004571176723736636
+        },
+        "mse_planted": {
+          "learned": 0.2960536539446975,
+          "permutation_mean": 0.3060865724356151,
+          "permutation_sample_sd": 0.0012407756534711966,
+          "learned_benefit": 0.010032918490917586
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.26705562814833367,
+          "permutation_mean": 0.2755905269891742,
+          "permutation_sample_sd": 0.0013692667186152232,
+          "learned_benefit": 0.008534898840840521
+        },
+        "mse_planted": {
+          "learned": 0.20917220329562833,
+          "permutation_mean": 0.2196034149815916,
+          "permutation_sample_sd": 0.0010272288484478246,
+          "learned_benefit": 0.010431211685963282
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": 0.11111111111111108
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2668116425970457,
+          "permutation_mean": 0.2683383536699962,
+          "permutation_sample_sd": 0.0004495660437964089,
+          "learned_benefit": 0.001526711072950493
+        },
+        "mse_planted": {
+          "learned": 0.21142077664005413,
+          "permutation_mean": 0.2160591087046077,
+          "permutation_sample_sd": 0.0006281097150255503,
+          "learned_benefit": 0.00463833206455358
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.2,
+          "permutation_sample_sd": 0.04969039949999532,
+          "learned_benefit": 0.0222222222222222
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.4444444444444444,
+          "permutation_mean": 0.5333333333333334,
+          "permutation_sample_sd": 0.09296222517045283,
+          "learned_benefit": -0.08888888888888902
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.26928677562944514,
+          "permutation_mean": 0.27796516141603117,
+          "permutation_sample_sd": 0.0003915498989417731,
+          "learned_benefit": 0.00867838578658603
+        },
+        "mse_planted": {
+          "learned": 0.21633386142874955,
+          "permutation_mean": 0.2280782804561842,
+          "permutation_sample_sd": 0.0013338773480945144,
+          "learned_benefit": 0.011744419027434644
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.3333333333333333,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.27537613889959345,
+          "permutation_mean": 0.2829081286560172,
+          "permutation_sample_sd": 0.0007210973597847316,
+          "learned_benefit": 0.007531989756423774
+        },
+        "mse_planted": {
+          "learned": 0.22618751004216087,
+          "permutation_mean": 0.23439109641325828,
+          "permutation_sample_sd": 0.001992679623426559,
+          "learned_benefit": 0.008203586371097416
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.4444444444444444,
+          "permutation_mean": 0.3333333333333333,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.1111111111111111
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.5555555555555556,
+          "permutation_mean": 0.42222222222222217,
+          "permutation_sample_sd": 0.049690399499995326,
+          "learned_benefit": 0.13333333333333341
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2776149516909776,
+          "permutation_mean": 0.27962349132817643,
+          "permutation_sample_sd": 0.0002589536551090715,
+          "learned_benefit": 0.002008539637198825
+        },
+        "mse_planted": {
+          "learned": 0.22371240690292424,
+          "permutation_mean": 0.2248914210715372,
+          "permutation_sample_sd": 0.00041767909802320935,
+          "learned_benefit": 0.001179014168612963
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.08888888888888888,
+          "permutation_sample_sd": 0.04969039949999532,
+          "learned_benefit": -0.08888888888888888
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2758056487720221,
+          "permutation_mean": 0.28069180710363534,
+          "permutation_sample_sd": 0.0007883049996327652,
+          "learned_benefit": 0.004886158331613211
+        },
+        "mse_planted": {
+          "learned": 0.22318219483268523,
+          "permutation_mean": 0.23070756192362712,
+          "permutation_sample_sd": 0.0018188383448765847,
+          "learned_benefit": 0.007525367090941898
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.4444444444444444,
+          "permutation_mean": 0.39999999999999997,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": 0.04444444444444445
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.5555555555555556,
+          "permutation_mean": 0.5777777777777777,
+          "permutation_sample_sd": 0.09296222517045283,
+          "learned_benefit": -0.022222222222222143
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24705554826512666,
+          "permutation_mean": 0.2611719205469579,
+          "permutation_sample_sd": 0.0008210682605161692,
+          "learned_benefit": 0.014116372281831269
+        },
+        "mse_planted": {
+          "learned": 0.18384014635881593,
+          "permutation_mean": 0.19873049032602216,
+          "permutation_sample_sd": 0.0013342113683811707,
+          "learned_benefit": 0.014890343967206232
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": -2.7755575615628914e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.4222222222222222,
+          "permutation_sample_sd": 0.049690399499995326,
+          "learned_benefit": -0.0888888888888889
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24515658476730837,
+          "permutation_mean": 0.25921507874873473,
+          "permutation_sample_sd": 0.0007293453244682647,
+          "learned_benefit": 0.014058493981426362
+        },
+        "mse_planted": {
+          "learned": 0.1832756983936846,
+          "permutation_mean": 0.19689654093673167,
+          "permutation_sample_sd": 0.0010391346767040723,
+          "learned_benefit": 0.013620842543047074
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.15555555555555553,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": -0.15555555555555553
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24826632323559406,
+          "permutation_mean": 0.26661336799626234,
+          "permutation_sample_sd": 0.000890760023179973,
+          "learned_benefit": 0.018347044760668285
+        },
+        "mse_planted": {
+          "learned": 0.18830849934874716,
+          "permutation_mean": 0.21020405772953152,
+          "permutation_sample_sd": 0.001161614998165361,
+          "learned_benefit": 0.021895558380784358
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.22222222222222224,
+          "permutation_sample_sd": 3.1031676915590914e-17,
+          "learned_benefit": -2.7755575615628914e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.4444444444444445,
+          "permutation_sample_sd": 6.206335383118183e-17,
+          "learned_benefit": -0.11111111111111116
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24557929723613073,
+          "permutation_mean": 0.26143259481215014,
+          "permutation_sample_sd": 0.001221913092130723,
+          "learned_benefit": 0.015853297576019415
+        },
+        "mse_planted": {
+          "learned": 0.18122190063269253,
+          "permutation_mean": 0.20243012734696691,
+          "permutation_sample_sd": 0.001647321748438146,
+          "learned_benefit": 0.021208226714274386
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.28888888888888886,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": 0.04444444444444445
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3333333333333333,
+          "permutation_mean": 0.3777777777777777,
+          "permutation_sample_sd": 0.09938079899999065,
+          "learned_benefit": -0.0444444444444444
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24908801727955254,
+          "permutation_mean": 0.259170124733257,
+          "permutation_sample_sd": 0.0007000646452283666,
+          "learned_benefit": 0.01008210745370447
+        },
+        "mse_planted": {
+          "learned": 0.18502468883236434,
+          "permutation_mean": 0.2016819552798294,
+          "permutation_sample_sd": 0.0010960188680128298,
+          "learned_benefit": 0.01665726644746507
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2493540805671125,
+          "permutation_mean": 0.2559913443585521,
+          "permutation_sample_sd": 0.00010486037778049201,
+          "learned_benefit": 0.006637263791439585
+        },
+        "mse_planted": {
+          "learned": 0.18368702182705646,
+          "permutation_mean": 0.1911049373639439,
+          "permutation_sample_sd": 0.0003600614082881556,
+          "learned_benefit": 0.007417915536887448
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.06666666666666667,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": 0.04444444444444444
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.06666666666666667,
+          "permutation_sample_sd": 0.06085806194501846,
+          "learned_benefit": 0.04444444444444444
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "training_seed": 42,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.23500555729678987,
+          "permutation_mean": 0.24536681050810785,
+          "permutation_sample_sd": 0.0006959311578470753,
+          "learned_benefit": 0.010361253211317978
+        },
+        "mse_planted": {
+          "learned": 0.19590925422235253,
+          "permutation_mean": 0.2094288093636571,
+          "permutation_sample_sd": 0.001285824173830255,
+          "learned_benefit": 0.013519555141304568
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "training_seed": 43,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24286238699602553,
+          "permutation_mean": 0.24972019396500955,
+          "permutation_sample_sd": 0.0009911815723057328,
+          "learned_benefit": 0.006857806968984026
+        },
+        "mse_planted": {
+          "learned": 0.20377228549972193,
+          "permutation_mean": 0.21763751726506414,
+          "permutation_sample_sd": 0.0008837476263331199,
+          "learned_benefit": 0.013865231765342212
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "training_seed": 44,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.23822711724346915,
+          "permutation_mean": 0.2477297087561297,
+          "permutation_sample_sd": 0.00023493690493473095,
+          "learned_benefit": 0.009502591512660558
+        },
+        "mse_planted": {
+          "learned": 0.200583386921229,
+          "permutation_mean": 0.21470891086513683,
+          "permutation_sample_sd": 0.0008512810550256675,
+          "learned_benefit": 0.014125523943907814
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "permutation_sample_sd": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "permutation_sample_sd": 1.5515838457795457e-17,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    }
+  ],
+  "per_system": [
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.34127682804240966,
+          "permutation_mean": 0.37050966989768885,
+          "learned_benefit": 0.029232841855279173
+        },
+        "mse_planted": {
+          "learned": 0.2670344685325947,
+          "permutation_mean": 0.2944160670615951,
+          "learned_benefit": 0.027381598529000368
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.037037037037037035,
+          "permutation_mean": 0.03703703703703704,
+          "learned_benefit": -4.625929269271485e-18
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.27888823251232225,
+          "permutation_mean": 0.288872396641154,
+          "learned_benefit": 0.00998416412883176
+        },
+        "mse_planted": {
+          "learned": 0.21621411300529303,
+          "permutation_mean": 0.23010964209702225,
+          "learned_benefit": 0.013895529091729244
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2675507767222934,
+          "permutation_mean": 0.27696760998259745,
+          "learned_benefit": 0.00941683326030405
+        },
+        "mse_planted": {
+          "learned": 0.22764946709845205,
+          "permutation_mean": 0.2400755538856507,
+          "learned_benefit": 0.012426086787198623
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.037037037037037035,
+          "permutation_mean": 0.029629629629629627,
+          "learned_benefit": 0.0074074074074074086
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111109,
+          "learned_benefit": 1.1564823173178714e-17
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.32648239564823406,
+          "permutation_mean": 0.3459317963529158,
+          "learned_benefit": 0.019449400704681725
+        },
+        "mse_planted": {
+          "learned": 0.2577618996124997,
+          "permutation_mean": 0.28153821137455104,
+          "learned_benefit": 0.0237763117620514
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.037037037037037035,
+          "permutation_mean": 0.03703703703703704,
+          "learned_benefit": -4.625929269271485e-18
+        }
+      }
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3230422792711163,
+          "permutation_mean": 0.34143367942864405,
+          "learned_benefit": 0.01839140015752777
+        },
+        "mse_planted": {
+          "learned": 0.26505594990449777,
+          "permutation_mean": 0.2887188185114617,
+          "learned_benefit": 0.02366286860696389
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "learned_benefit": -1.3877787807814457e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1851851851851852,
+          "permutation_mean": 0.15555555555555556,
+          "learned_benefit": 0.029629629629629603
+        }
+      }
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3203098530670976,
+          "permutation_mean": 0.3361819296594432,
+          "learned_benefit": 0.015872076592345668
+        },
+        "mse_planted": {
+          "learned": 0.29278425262765145,
+          "permutation_mean": 0.30536183242353976,
+          "learned_benefit": 0.012577579795888305
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.34101823508805484,
+          "permutation_mean": 0.3601337425254849,
+          "learned_benefit": 0.01911550743743005
+        },
+        "mse_planted": {
+          "learned": 0.3248342797421784,
+          "permutation_mean": 0.34821807018041423,
+          "learned_benefit": 0.02338379043823589
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.07407407407407407,
+          "permutation_mean": 0.05185185185185185,
+          "learned_benefit": 0.022222222222222223
+        }
+      }
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2675620305949026,
+          "permutation_mean": 0.27197476778603,
+          "learned_benefit": 0.004412737191127447
+        },
+        "mse_planted": {
+          "learned": 0.20204161915872398,
+          "permutation_mean": 0.20853277205031343,
+          "learned_benefit": 0.006491152891589459
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.25925925925925924,
+          "permutation_mean": 0.25925925925925924,
+          "learned_benefit": -1.850371707708594e-17
+        }
+      }
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.30349010238858715,
+          "permutation_mean": 0.3152330280604773,
+          "learned_benefit": 0.011742925671890189
+        },
+        "mse_planted": {
+          "learned": 0.3048446415961039,
+          "permutation_mean": 0.3176831658853859,
+          "learned_benefit": 0.012838524289281986
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.07407407407407407,
+          "permutation_mean": 0.07407407407407408,
+          "learned_benefit": -9.25185853854297e-18
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.07407407407407407,
+          "permutation_mean": 0.07407407407407408,
+          "learned_benefit": -9.25185853854297e-18
+        }
+      }
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.3177506783669352,
+          "permutation_mean": 0.3276719610308609,
+          "learned_benefit": 0.009921282663925687
+        },
+        "mse_planted": {
+          "learned": 0.29312831588210336,
+          "permutation_mean": 0.3076795890785487,
+          "learned_benefit": 0.0145512731964453
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        }
+      }
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.26771801545827484,
+          "permutation_mean": 0.2739646806917339,
+          "learned_benefit": 0.0062466652334590145
+        },
+        "mse_planted": {
+          "learned": 0.21230894712147733,
+          "permutation_mean": 0.22124693471412782,
+          "learned_benefit": 0.008937987592650501
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.14814814814814814,
+          "permutation_mean": 0.14074074074074075,
+          "learned_benefit": 0.00740740740740739
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3703703703703703,
+          "permutation_mean": 0.362962962962963,
+          "learned_benefit": 0.007407407407407353
+        }
+      }
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.2762655797875311,
+          "permutation_mean": 0.28107447569594296,
+          "learned_benefit": 0.0048088959084119365
+        },
+        "mse_planted": {
+          "learned": 0.22436070392592344,
+          "permutation_mean": 0.22999669313614088,
+          "learned_benefit": 0.005635989210217425
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.2962962962962963,
+          "permutation_mean": 0.24444444444444444,
+          "learned_benefit": 0.05185185185185185
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.3703703703703704,
+          "permutation_mean": 0.36296296296296293,
+          "learned_benefit": 0.007407407407407464
+        }
+      }
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24682615208934303,
+          "permutation_mean": 0.262333455763985,
+          "learned_benefit": 0.015507303674641973
+        },
+        "mse_planted": {
+          "learned": 0.1851414480337492,
+          "permutation_mean": 0.20194369633076178,
+          "learned_benefit": 0.016802248297012556
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.14814814814814814,
+          "permutation_mean": 0.14814814814814817,
+          "learned_benefit": -1.850371707708594e-17
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.2222222222222222,
+          "permutation_mean": 0.34074074074074073,
+          "learned_benefit": -0.11851851851851854
+        }
+      }
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.24800713169426525,
+          "permutation_mean": 0.2588646879679864,
+          "learned_benefit": 0.010857556273721156
+        },
+        "mse_planted": {
+          "learned": 0.18331120376403776,
+          "permutation_mean": 0.19840567333024675,
+          "learned_benefit": 0.015094469566208968
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.14814814814814814,
+          "permutation_mean": 0.11851851851851851,
+          "learned_benefit": 0.02962962962962963
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.14814814814814814,
+          "permutation_mean": 0.1481481481481481,
+          "learned_benefit": 1.3877787807814457e-17
+        }
+      }
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "training_seeds": 3,
+      "metrics": {
+        "mse_all": {
+          "learned": 0.23869835384542817,
+          "permutation_mean": 0.2476055710764157,
+          "learned_benefit": 0.008907217230987521
+        },
+        "mse_planted": {
+          "learned": 0.20008830888110116,
+          "permutation_mean": 0.21392507916461936,
+          "learned_benefit": 0.013836770283518198
+        },
+        "joint_recall_top8_tol2": {
+          "learned": 0.0,
+          "permutation_mean": 0.0,
+          "learned_benefit": 0.0
+        },
+        "source_lag_recall_top8_tol2": {
+          "learned": 0.1111111111111111,
+          "permutation_mean": 0.11111111111111112,
+          "learned_benefit": -1.3877787807814457e-17
+        }
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "family": "linear",
+      "metric": "mse_all",
+      "systems": 5,
+      "learned_mean": 0.3074481024392751,
+      "permutation_mean": 0.32474303046060005,
+      "learned_benefit": 0.017294928021324894,
+      "difference_sample_sd": 0.008122029243839288,
+      "ci95_unadjusted": [
+        0.011438295681210372,
+        0.0234264180798702
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "linear",
+      "metric": "mse_planted",
+      "systems": 5,
+      "learned_mean": 0.24674317963066744,
+      "permutation_mean": 0.26697165858605615,
+      "learned_benefit": 0.020228478955388703,
+      "difference_sample_sd": 0.00664328320672699,
+      "ci95_unadjusted": [
+        0.014989453027299865,
+        0.025195737837813488
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "linear",
+      "metric": "joint_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.029629629629629627,
+      "permutation_mean": 0.02814814814814815,
+      "learned_benefit": 0.001481481481481479,
+      "difference_sample_sd": 0.0033126932999996907,
+      "ci95_unadjusted": [
+        -8.326672684688674e-18,
+        0.004444444444444445
+      ],
+      "systems_favoring_learned": 1,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "linear",
+      "metric": "source_lag_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.07407407407407407,
+      "permutation_mean": 0.06814814814814815,
+      "learned_benefit": 0.005925925925925921,
+      "difference_sample_sd": 0.01325077319999874,
+      "ci95_unadjusted": [
+        -3.7007434154171884e-18,
+        0.01777777777777776
+      ],
+      "systems_favoring_learned": 2,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "nonlinear",
+      "metric": "mse_all",
+      "systems": 5,
+      "learned_mean": 0.3100261799011155,
+      "permutation_mean": 0.3222390858124593,
+      "learned_benefit": 0.012212905911343809,
+      "difference_sample_sd": 0.005642483684027308,
+      "ci95_unadjusted": [
+        0.007717864474806392,
+        0.016343618746288327
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "nonlinear",
+      "metric": "mse_planted",
+      "systems": 5,
+      "learned_mean": 0.28352662180135224,
+      "permutation_mean": 0.2974950859236404,
+      "learned_benefit": 0.013968464122288188,
+      "difference_sample_sd": 0.006085013199021623,
+      "ci95_unadjusted": [
+        0.009372651232099133,
+        0.019113495079975597
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "nonlinear",
+      "metric": "joint_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.014814814814814814,
+      "permutation_mean": 0.014814814814814817,
+      "learned_benefit": -1.8503717077085942e-18,
+      "difference_sample_sd": 4.1375569220787885e-18,
+      "ci95_unadjusted": [
+        -5.551115123125783e-18,
+        0.0
+      ],
+      "systems_favoring_learned": 0,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "nonlinear",
+      "metric": "source_lag_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.08148148148148147,
+      "permutation_mean": 0.07703703703703704,
+      "learned_benefit": 0.004444444444444439,
+      "difference_sample_sd": 0.009938079899999069,
+      "ci95_unadjusted": [
+        -1.2952601953960158e-17,
+        0.013333333333333332
+      ],
+      "systems_favoring_learned": 1,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "periodic_distractors",
+      "metric": "mse_all",
+      "systems": 5,
+      "learned_mean": 0.2555030465749685,
+      "permutation_mean": 0.2647685742392128,
+      "learned_benefit": 0.00926552766424432,
+      "difference_sample_sd": 0.004201125034054856,
+      "ci95_unadjusted": [
+        0.006203667902945885,
+        0.012725226506221219
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "periodic_distractors",
+      "metric": "mse_planted",
+      "systems": 5,
+      "learned_mean": 0.20104212234525778,
+      "permutation_mean": 0.21310361533517935,
+      "learned_benefit": 0.01206149298992153,
+      "difference_sample_sd": 0.004633268340301285,
+      "ci95_unadjusted": [
+        0.008529640704063066,
+        0.01552604120199225
+      ],
+      "systems_favoring_learned": 5,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "periodic_distractors",
+      "metric": "joint_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.14814814814814814,
+      "permutation_mean": 0.13037037037037036,
+      "learned_benefit": 0.01777777777777777,
+      "difference_sample_sd": 0.022589556565891716,
+      "ci95_unadjusted": [
+        0.0014814814814814708,
+        0.037037037037037035
+      ],
+      "systems_favoring_learned": 3,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "periodic_distractors",
+      "metric": "source_lag_recall_top8_tol2",
+      "systems": 5,
+      "learned_mean": 0.24444444444444446,
+      "permutation_mean": 0.2651851851851852,
+      "learned_benefit": -0.020740740740740744,
+      "difference_sample_sd": 0.05478477655437215,
+      "ci95_unadjusted": [
+        -0.06962962962962965,
+        0.00592592592592593
+      ],
+      "systems_favoring_learned": 3,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "overall_stratified",
+      "metric": "mse_all",
+      "systems": 15,
+      "learned_mean": 0.29099244297178634,
+      "permutation_mean": 0.303916896837424,
+      "learned_benefit": 0.012924453865637677,
+      "difference_sample_sd": 0.006691109024969479,
+      "ci95_unadjusted": [
+        0.010276474952891535,
+        0.015770372043349218
+      ],
+      "systems_favoring_learned": 15,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "overall_stratified",
+      "metric": "mse_planted",
+      "systems": 15,
+      "learned_mean": 0.2437706412590925,
+      "permutation_mean": 0.25919011994829194,
+      "learned_benefit": 0.015419478689199472,
+      "difference_sample_sd": 0.006508516758787816,
+      "ci95_unadjusted": [
+        0.012826809126957378,
+        0.01805085650574947
+      ],
+      "systems_favoring_learned": 15,
+      "sign": "permutation-minus-learned MSE"
+    },
+    {
+      "family": "overall_stratified",
+      "metric": "joint_recall_top8_tol2",
+      "systems": 15,
+      "learned_mean": 0.06419753086419752,
+      "permutation_mean": 0.05777777777777778,
+      "learned_benefit": 0.006419753086419749,
+      "difference_sample_sd": 0.014779499353822868,
+      "ci95_unadjusted": [
+        0.0009876543209876487,
+        0.012839506172839504
+      ],
+      "systems_favoring_learned": 4,
+      "sign": "learned-minus-permutation recall"
+    },
+    {
+      "family": "overall_stratified",
+      "metric": "source_lag_recall_top8_tol2",
+      "systems": 15,
+      "learned_mean": 0.13333333333333333,
+      "permutation_mean": 0.13679012345679012,
+      "learned_benefit": -0.003456790123456794,
+      "difference_sample_sd": 0.03311115451231921,
+      "ci95_unadjusted": [
+        -0.020740740740740744,
+        0.00790123456790123
+      ],
+      "systems_favoring_learned": 6,
+      "sign": "learned-minus-permutation recall"
+    }
+  ],
+  "multiplicity": "Intervals are descriptive, unadjusted; primary and secondary outcomes predeclared"
+}

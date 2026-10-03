@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "predictor_seed": 42,
+  "gate_seeds": [
+    42,
+    43,
+    44
+  ],
+  "gate_fit_source": "20 retained C2F seed42 Tuning files only",
+  "steps": 400,
+  "batch": 512,
+  "lr": 0.01,
+  "temperature": 0.25,
+  "hidden": 8,
+  "rho": 1.0,
+  "std_floor": 0.001,
+  "clip": 8.0,
+  "pair_rng": "PCG64(gate_seed+999000)",
+  "features": "12 original lagged history features; no current observation",
+  "training": "constant then frozen-anchor bounded gate",
+  "transfer": "same checkpoints and feature moments across all4 backbones",
+  "inference": "FP32 PyTorch CPU,8192-row blocks",
+  "branches": [
+    [
+      0.98,
+      2,
+      65
+    ],
+    [
+      0.9,
+      2,
+      129
+    ]
+  ],
+  "branch_recalibration": 0.98,
+  "evaluation_tuning": false,
+  "no_global_router": true,
+  "no_predictor_training": true
+}

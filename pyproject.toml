@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c2f-cslrnet"
+version = "0.1.0"
+description = "Prepared research components for component-conditioned retrieval and bounded residual scoring"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {text = "MIT"}
+authors = [{name = "Jiahao Zhang"}]
+dependencies = ["numpy==1.26.4", "scipy==1.14.1", "pandas==2.0.3", "torch==2.5.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

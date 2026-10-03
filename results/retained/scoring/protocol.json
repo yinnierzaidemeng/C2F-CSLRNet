@@ -1,0 +1,14 @@
+{
+  "scope": "Versioned retained correction aggregate",
+  "original_protocol_sha256": "ecfd00bc991fc3f620c0ccb30fa1a2d3e55c7c8d21d15b7ab4c7854eb3d89339",
+  "scoring_protocol_sha256": "6a70ae46ae77d440c3fc3088930eca65b747299ebba65330cff5f558ec815d10",
+  "ready_map_sha256": "c278f720facb595e340ff97ebe1364b2014b122d1b144e782dc9cf3d63540f0c",
+  "code_hashes": {
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/aggregate_completion_v1.py": "9b927032bd8329f77bed77896f7efa604f2b6858dea7fb674eec4299e4256fc9",
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/aggregate_replay_control_v1.py": "73f0436520652c69c01f29305d65b56097a2746b1ffe4ef62bf9a03f7ed59be8",
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/prepare_ready_map_v1.py": "bea744ec4f44597e608dd1f1e1acbd39ca2bd9d2e2564dfacc2922051c103b0d",
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/retained_common_v1.py": "697efc833bcb376676764db94c654ff1de7a6904260a45c414dfc08f6d258610",
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/score_retained_overlay_v1.py": "6297930d826771c58eb6525c4da5ae709479c649b9ad6191d82f0de1d563302e",
+    "<research-root>/research_normalization_repair_20260928/retained_scoring_code/verify_retained_overlay_v1.py": "c956144974e7890ebeced815ce565e5c8620b35ee6e49af36f9ff8686c28025f"
+  }
+}

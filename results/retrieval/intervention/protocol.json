@@ -1,0 +1,937 @@
+{
+  "name": "Retrospective same-budget within-coarse-block fine-weight intervention",
+  "schema": 1,
+  "frozen_utc": "2026-09-17T09:11:41.793565+00:00",
+  "source_root": "<research-root>/research_e3_20260907",
+  "original_protocol_sha256": "1140de1b1c6d7637d1c91103a53db54483383d835acf7677aeeed31cf385ab18",
+  "original_code_hashes": {
+    "scripts/run_component_recovery.py": "02e72acb0f11f27492296968ca7d63f03561f324a376b8e7edf4884a128a62b4",
+    "scripts/component_systems.py": "38dd7a5b562db4861ddcec9bd109d036dbd00aa7f87e51ab51b00d07e13ee0bd",
+    "scripts/component_recovery_models.py": "044dd51f608d18306038fcb8464e178ec14a4aa956bea99a51b9e261658e938b",
+    "scripts/component_recovery_metrics.py": "b9948e135bd262d5d3cfc16d05ed2a31f520897b4a19e78788102b84458a2f7f",
+    "scripts/component_experiment_io.py": "e9d2759d471ac2d56d7278212f7d887b72a968318fe40a3a1132de8a224fbf90",
+    "src/model.py": "1dbc64dfdcc05ce5bbdadd097094ad308aa842fe822d2870fa8907b470c8ef1d",
+    "src/data.py": "34b7a6c86db4c56a9e052c6eb5efc5818a98fc5fc478e62d44f6add0079af464"
+  },
+  "extension_code_sha256": {
+    "run_intervention.py": "23e97dc0a99ba0380fadf357596363f6f1a4f888e858fcb82255bde014043afc",
+    "isolated_fine_permutation.py": "77bb503427aa3f459bf236552fbdd0689d7eaa7341142337fc2b9a905c52dab5",
+    "summarize_intervention.py": "386c2b1b3bdb734b449fbb4f85612067c215a6e99934e9b1c7df86ee85eedeed",
+    "README.md": "81646453b3d84b7cd1f423b52fd9763acb841fdd6f615459c340db2bb434970d"
+  },
+  "units": [
+    {
+      "unit_id": "linear_73000/seed_42",
+      "family": "linear",
+      "data_seed": 73000,
+      "instance": 0,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73000/full/seed_42",
+      "data_sha256": "19904bb8276c4f6881aff9aeaaf3387a0af5aa8d0f41518086446f0c6e962317",
+      "metadata_sha256": "85e27d97b6c54dfed7c07ff7ab3424624b1b0859b17b190559db97892d8aa4aa",
+      "artifacts": {
+        "best_model.pt": "5421ff1dd8432305033ffae16e5b81a028f133741ff0d781b342454cfb1cf2de",
+        "normalizer.npz": "3cc0628ef45ee621cd66ab48232d717751f22075ece7cf7091771c3da26db64c",
+        "config.json": "bf4836a52b288433ba11d88ad98555a7adbd5f99b27b9aa2941ca5dd4f6bf649",
+        "result.json": "65e7d9dd1be069dd5b6f6d9746dfcce317bce7482c518f5f529111e5cd31b10e",
+        "graph.npz": "d9af13d1c0b1ced1792b7710fdc755581b0a17accdce7fa69b0e4f1d349405b1",
+        "training_complete.json": "55a455c9ad56295e11a661b190d9e78cd6fae33f6063a0d72283bbe2694fe5be"
+      }
+    },
+    {
+      "unit_id": "linear_73000/seed_43",
+      "family": "linear",
+      "data_seed": 73000,
+      "instance": 0,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73000/full/seed_43",
+      "data_sha256": "19904bb8276c4f6881aff9aeaaf3387a0af5aa8d0f41518086446f0c6e962317",
+      "metadata_sha256": "85e27d97b6c54dfed7c07ff7ab3424624b1b0859b17b190559db97892d8aa4aa",
+      "artifacts": {
+        "best_model.pt": "a78a76f7c8d90c99284b26740b11c0111965ffc86c218b53b72e282a87d7a015",
+        "normalizer.npz": "dd2269f14292f2c3dbc5752741633bc53a6976544c63ebeee507c53bb0e7c72b",
+        "config.json": "3d9ad3dcc5906e5a3c39fa2ebc474ecd3f95ad040ce50d1e538ac2dce841d0bd",
+        "result.json": "b7a929e408e6eb389a087019b79a138e0ca7e2609e5e900b0ff523341775f2e9",
+        "graph.npz": "322c80e3f2b2e5760e554ad9f4fd24a4c63c340396247fa881031b77d643a0e2",
+        "training_complete.json": "833daa78855d23ef712a011d314d20c3e51e297e727f52d215bf9a8c3324d6cc"
+      }
+    },
+    {
+      "unit_id": "linear_73000/seed_44",
+      "family": "linear",
+      "data_seed": 73000,
+      "instance": 0,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73000/full/seed_44",
+      "data_sha256": "19904bb8276c4f6881aff9aeaaf3387a0af5aa8d0f41518086446f0c6e962317",
+      "metadata_sha256": "85e27d97b6c54dfed7c07ff7ab3424624b1b0859b17b190559db97892d8aa4aa",
+      "artifacts": {
+        "best_model.pt": "326cd868c74a70e860058ad13c68c7b5a8dfefa311393af3555b7051855a3e74",
+        "normalizer.npz": "dd2269f14292f2c3dbc5752741633bc53a6976544c63ebeee507c53bb0e7c72b",
+        "config.json": "8e5b532862eb0b531423174f2053a45d759dc377b0b486a9d288ea12ca2ef718",
+        "result.json": "ceeee2b7471091b2b8adc9e2b5e71bb2037eddfd7085411a111e5dc330fca212",
+        "graph.npz": "efbe5fd5b4336b40b3a927ab728998f18921127f70ecbcf69103de474ca97681",
+        "training_complete.json": "784a48b18ab07bdf9d5ed2c6de122f1d6a13c5c4d5196bd8703c74f364e07341"
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_42",
+      "family": "linear",
+      "data_seed": 73001,
+      "instance": 1,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73001/full/seed_42",
+      "data_sha256": "13eb1a36b927c6e73e50e472454a76e387c4a61503eac336169fec16a1ed6683",
+      "metadata_sha256": "2743866ef30505cba9f2a75c51ec254c71e2e6ee56048c56fd424c16796fac74",
+      "artifacts": {
+        "best_model.pt": "b06bee5997e4e306dce15fcf5493bb1547add57476b2510773de91753e7c4546",
+        "normalizer.npz": "ca6b438604cd6676520bfb066319da0a3897a3480520eae1153b4586fbfdbc16",
+        "config.json": "796d9ab309eff75bf0393c2ee4b1e1943fcc05ceea34a702980026fbb99c6607",
+        "result.json": "9c1af0654d713cc42880900f05a86858e1c4bee9496d69397684c35fb2acad76",
+        "graph.npz": "6b39893ad46a888df98a86ca86baec2b0a33e7aa633a3822edf541ac438df342",
+        "training_complete.json": "df0a5f71f0814467aed2123e57920e41255866b59b30c209117405ef64430ea3"
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_43",
+      "family": "linear",
+      "data_seed": 73001,
+      "instance": 1,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73001/full/seed_43",
+      "data_sha256": "13eb1a36b927c6e73e50e472454a76e387c4a61503eac336169fec16a1ed6683",
+      "metadata_sha256": "2743866ef30505cba9f2a75c51ec254c71e2e6ee56048c56fd424c16796fac74",
+      "artifacts": {
+        "best_model.pt": "276c3099fb2f7c5df4a8e2f15c8d8f7b9ee6c11bc7ffe83e1d7d3b94fdd5cefd",
+        "normalizer.npz": "ca6b438604cd6676520bfb066319da0a3897a3480520eae1153b4586fbfdbc16",
+        "config.json": "8d20100722fa6123925430f54aa8bdf0472db866187ab8c56b199a3c8045298c",
+        "result.json": "ca696a3a5a35e1e515d5a9ce4f2ca5067984dd0c70bbc14e70ed9f3db90f10ad",
+        "graph.npz": "f3add8adddaf77267151d418a20852f3fa6975e7dd7c7686c52d7c88c220544f",
+        "training_complete.json": "c655e1517fcc67a44ebd84da5b9b1b9ecbe05dcb76a51c3f4f8a9a6ad7613663"
+      }
+    },
+    {
+      "unit_id": "linear_73001/seed_44",
+      "family": "linear",
+      "data_seed": 73001,
+      "instance": 1,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73001/full/seed_44",
+      "data_sha256": "13eb1a36b927c6e73e50e472454a76e387c4a61503eac336169fec16a1ed6683",
+      "metadata_sha256": "2743866ef30505cba9f2a75c51ec254c71e2e6ee56048c56fd424c16796fac74",
+      "artifacts": {
+        "best_model.pt": "499515937ec4487c042d304401a1aefc33f1b4a14671c8012ca58739503d9341",
+        "normalizer.npz": "ca6b438604cd6676520bfb066319da0a3897a3480520eae1153b4586fbfdbc16",
+        "config.json": "4d9ed383993a3d0508c2e631975b2ff20d41f34bdbdae671590233dd93b3fbd4",
+        "result.json": "315191c77699f2919483640dc8e17fa00ba5149bb0ed57136ea7864771bbee10",
+        "graph.npz": "b2489508ce16a5c544723dc6548c1fff63a196bc97ef9e33b2a3086cde97989e",
+        "training_complete.json": "a3985dd08c0000284cadf981d14f1df9bfafe069a2b6c7e6dda844fe5832eea5"
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_42",
+      "family": "linear",
+      "data_seed": 73002,
+      "instance": 2,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73002/full/seed_42",
+      "data_sha256": "2acd5a5aa4594c06fabb45e74b38d6ff697da2e41c975ac54b44680a500b7ac8",
+      "metadata_sha256": "bb2cc813a4046ef6613b7f3eaa0b901bd61e0ccf7f9b0e4ebf9fb0aa6ba0a872",
+      "artifacts": {
+        "best_model.pt": "855da00c5505c100fe1c33bad87e3043c519c8629749d2c9756caebc02a102d4",
+        "normalizer.npz": "69c63986f42f75962bb0f0786d5029d6218eb58d9d4a8c61ae9484dd9816d1da",
+        "config.json": "5be8a9f486339276356602455872f4543c005edc624f0a11fc8f589c32a613b2",
+        "result.json": "347e4781bb1e9fad7c50d5f9a9407f57339a068ea0ffb76f3e5e5abf8b28c37f",
+        "graph.npz": "ef17b3e2a2ecdc71ec1c4b63bcfcbd2cf11a43b0b6270ddbd9540ac8f55c17d6",
+        "training_complete.json": "a30d17399b0e1036ebf7673d21a4c974980d6788c929bcf5276a09ff1a9a1056"
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_43",
+      "family": "linear",
+      "data_seed": 73002,
+      "instance": 2,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73002/full/seed_43",
+      "data_sha256": "2acd5a5aa4594c06fabb45e74b38d6ff697da2e41c975ac54b44680a500b7ac8",
+      "metadata_sha256": "bb2cc813a4046ef6613b7f3eaa0b901bd61e0ccf7f9b0e4ebf9fb0aa6ba0a872",
+      "artifacts": {
+        "best_model.pt": "e7514582a2297f63b1d88090e3a749c39663396c4fc758868f38db0e8b5db02f",
+        "normalizer.npz": "69c63986f42f75962bb0f0786d5029d6218eb58d9d4a8c61ae9484dd9816d1da",
+        "config.json": "fc0b376d40df9e1c33c09f8fea6974cbb396d08f653180960a3a3f25d710d0da",
+        "result.json": "5dc2816f01cb0a1525aeba38017a98fa3bcc8f0795626f4b139f98fccd3920c3",
+        "graph.npz": "96d6c8b845797dad4b0be4229af8139623b414c60459a3054e1f74b3f533294f",
+        "training_complete.json": "214bb5c36d6f29ba30d89cdd51f723ee7216d0d56dd58d04b2a713a3a898b544"
+      }
+    },
+    {
+      "unit_id": "linear_73002/seed_44",
+      "family": "linear",
+      "data_seed": 73002,
+      "instance": 2,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73002/full/seed_44",
+      "data_sha256": "2acd5a5aa4594c06fabb45e74b38d6ff697da2e41c975ac54b44680a500b7ac8",
+      "metadata_sha256": "bb2cc813a4046ef6613b7f3eaa0b901bd61e0ccf7f9b0e4ebf9fb0aa6ba0a872",
+      "artifacts": {
+        "best_model.pt": "01a30f0ece30e440c51a7212d712fb1a98e8cb8f284500e0a0b0303373577605",
+        "normalizer.npz": "69c63986f42f75962bb0f0786d5029d6218eb58d9d4a8c61ae9484dd9816d1da",
+        "config.json": "53fa20266d2a09d155a9633ac03ff0e491efd911b0bffa62d216d8989201eefc",
+        "result.json": "8efd220de73ebafa645b244a1615a63becb12dac726d761736d7133d9f1ba133",
+        "graph.npz": "eb3bf2d38e32ff3cc65a4268379423e79faa372632b42e7b2305ad9156f4e465",
+        "training_complete.json": "6c71acd4d7551db0a9fe6faab6703d7169ef4746093a1810a611d8c818302742"
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_42",
+      "family": "linear",
+      "data_seed": 73003,
+      "instance": 3,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73003/full/seed_42",
+      "data_sha256": "08c7696760c41c0bce158ad2c7c6fe145fb99fdfcf9f1c77dc0ac5a9ed0d923e",
+      "metadata_sha256": "56fc781db1c02edccbbcd34d97d85dbd220f6a87821979e309f06eb87a85c160",
+      "artifacts": {
+        "best_model.pt": "0fa0e8fbfc373355fda363b1f3daec7ab9f13026c37ddf336371cefb1702a03d",
+        "normalizer.npz": "3474523733eb154657b2cb7d22d97193bb5b58441dbd5691deed4f8376eea70d",
+        "config.json": "217f7449d7fd669f3cdb25dd792e3a5b1b2f0b61cacc2623c0ee61d763fba380",
+        "result.json": "b0490d7026590d20d8d871a91a9ee85f495ac58bd27ac5e21dfcae1cfe0fdc7d",
+        "graph.npz": "a29e232746b6f14fe5329fcf7916e9a35b7b0db2ede98a6cfd1a16ecb31a7577",
+        "training_complete.json": "c59b4a987a6d2825c52146cd6253f7ef981e43b74efcd45e466378ee627b8530"
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_43",
+      "family": "linear",
+      "data_seed": 73003,
+      "instance": 3,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73003/full/seed_43",
+      "data_sha256": "08c7696760c41c0bce158ad2c7c6fe145fb99fdfcf9f1c77dc0ac5a9ed0d923e",
+      "metadata_sha256": "56fc781db1c02edccbbcd34d97d85dbd220f6a87821979e309f06eb87a85c160",
+      "artifacts": {
+        "best_model.pt": "c6889646392973c36065d9730552591d02841a6aed91a0db44a29bd66486c43f",
+        "normalizer.npz": "3474523733eb154657b2cb7d22d97193bb5b58441dbd5691deed4f8376eea70d",
+        "config.json": "751e4bcdb95f1d3917c3b6af8eb58bb122483420c82c2762ea1eb61e7ffb6a72",
+        "result.json": "e702c85fa813f71bde9742d15ca2dd3f7698ef687ca77d88fae2531241aa403d",
+        "graph.npz": "97cda0bd10036842bd172cf1acc46ae6a926cf2b265d39bf2a29582e78754b60",
+        "training_complete.json": "e68d3e32bc4b51de2c263a7349448fd3cc07b59e9e472ae91d836348e9bcd329"
+      }
+    },
+    {
+      "unit_id": "linear_73003/seed_44",
+      "family": "linear",
+      "data_seed": 73003,
+      "instance": 3,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73003/full/seed_44",
+      "data_sha256": "08c7696760c41c0bce158ad2c7c6fe145fb99fdfcf9f1c77dc0ac5a9ed0d923e",
+      "metadata_sha256": "56fc781db1c02edccbbcd34d97d85dbd220f6a87821979e309f06eb87a85c160",
+      "artifacts": {
+        "best_model.pt": "a5d04747bc47a80078483daace73d9f4039ffd84ebc85dbb268c97b1a84e1c82",
+        "normalizer.npz": "3474523733eb154657b2cb7d22d97193bb5b58441dbd5691deed4f8376eea70d",
+        "config.json": "1f501d95c6525a1813dcd7336f1bb846f549552d5a668a76e47cf4295d336ff4",
+        "result.json": "d9c73042219844c78a6f90bd9afd82ed6330357eee637d524091c4fcdcc27389",
+        "graph.npz": "fc37a81c65d3436e081a889171638e187134f65c70d952bfb90505a475727661",
+        "training_complete.json": "8a200c975441649964f78d5d7b97276c907645aaaa1fcb60309ad00798930328"
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_42",
+      "family": "linear",
+      "data_seed": 73004,
+      "instance": 4,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73004/full/seed_42",
+      "data_sha256": "3a298fe6e97fb41c3d34ac6c7a7e84443476f582cfea0195909686a755e98053",
+      "metadata_sha256": "49fd0c286e5c3e5bcc48713c2baf86b45806889c25bef8b666c88742ae2d0ca6",
+      "artifacts": {
+        "best_model.pt": "638915098e745eaf2ea67dc01061785ca1c8d507a18de5a2fbd5ead40d92355c",
+        "normalizer.npz": "f0b9242038c65ca3c9d1515de4c9060827e09aaea39d48e8024b27fc21e7fe4f",
+        "config.json": "95ff0b4a04d1edb9f8f7d89961bb43a459fe9dfbd77a76b8c6b3b8ca7aa93e63",
+        "result.json": "671a8efdae2c6444707b55732431e22979d06b70a8d9d1953fa15c2e16438ab2",
+        "graph.npz": "efbcc5d729227356721cfc864f5bb1db9d3003508ddfde06bace830ecf0e8dd1",
+        "training_complete.json": "4ea194c3ff03dce3d18635c6c25c3f7c3e5ff8d989488445bd43c098a4698881"
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_43",
+      "family": "linear",
+      "data_seed": 73004,
+      "instance": 4,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73004/full/seed_43",
+      "data_sha256": "3a298fe6e97fb41c3d34ac6c7a7e84443476f582cfea0195909686a755e98053",
+      "metadata_sha256": "49fd0c286e5c3e5bcc48713c2baf86b45806889c25bef8b666c88742ae2d0ca6",
+      "artifacts": {
+        "best_model.pt": "bf9c8ebcc1cd271fbffef5e5af99a1fa5e9d4488791f6e1ab2f01af54c313056",
+        "normalizer.npz": "f0b9242038c65ca3c9d1515de4c9060827e09aaea39d48e8024b27fc21e7fe4f",
+        "config.json": "0623ac1aebe38fbdbdddd6baa7a6380f5736cb6a6b151e28e4983eb0bc3e3ec4",
+        "result.json": "f2a217d23f11f06e05e5f2d4103e7028818b0127cdc9c6f80f9f69ba9ae44c9d",
+        "graph.npz": "a2f0b1b78d06fa518e63e483bcbd0d9d520c4c79fdaf45ced1f16a54315cfe97",
+        "training_complete.json": "3eab8f303bdd6cea0bafdd863005d580b9713fcb08b3c150aa51bf41fde235be"
+      }
+    },
+    {
+      "unit_id": "linear_73004/seed_44",
+      "family": "linear",
+      "data_seed": 73004,
+      "instance": 4,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/linear_73004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/linear_73004/full/seed_44",
+      "data_sha256": "3a298fe6e97fb41c3d34ac6c7a7e84443476f582cfea0195909686a755e98053",
+      "metadata_sha256": "49fd0c286e5c3e5bcc48713c2baf86b45806889c25bef8b666c88742ae2d0ca6",
+      "artifacts": {
+        "best_model.pt": "fdeff5094f5a0e80b05fbffcb3a9d0bcafa21a239e62ba74554c6bfec40d38f5",
+        "normalizer.npz": "f0b9242038c65ca3c9d1515de4c9060827e09aaea39d48e8024b27fc21e7fe4f",
+        "config.json": "c991980ee89d83f59b9bf796026557fef160fa52cb9cacf801d4a4128ffc3334",
+        "result.json": "9b122b87c8602d016746e88b37773574e2f606b6cdaca12ab5e0ace6e7b7beb9",
+        "graph.npz": "88c306ddfc45da9b5b78b6d99fcfd712636dfcfa6e6494db6ee8f4ccf1d0375d",
+        "training_complete.json": "be6224d78c3c3bddaee50510a6e2398ced2a723f95da2480c7ad1a79da0d8dcc"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "instance": 0,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74000/full/seed_42",
+      "data_sha256": "9685c388fcd783ea95ee430bbad6fa12a9c43385722d01315cdfd03b089c02ec",
+      "metadata_sha256": "bca322c1ddb247f4304cc3c0561cbfee5b323a34ad640a583d6f3025b010535a",
+      "artifacts": {
+        "best_model.pt": "89a25ba5c13da20ac12e15e7fb76201b92a546da321659efbe1eb9fe79317ac7",
+        "normalizer.npz": "a0097c375a86f13d91f0c8eac06e23d8fcffa7541bcc69431e6e69315439238a",
+        "config.json": "87848b6d0ed37fb74b9ddd86ed3e99ade828fa0f6763a53d25b459c086895944",
+        "result.json": "cb24b0a39d5fd1010a5da71e1ca3fa1d6548baedd0fca1870c08b9fb05a57f04",
+        "graph.npz": "f5fb493c4632e9c95f2f5647aa55c125558e4d689775b84769cc29350f810f2d",
+        "training_complete.json": "8ada6ab23473761c3cbd58f4da7e26f449b34f346b9d744cf9b03d3d69f44c80"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "instance": 0,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74000/full/seed_43",
+      "data_sha256": "9685c388fcd783ea95ee430bbad6fa12a9c43385722d01315cdfd03b089c02ec",
+      "metadata_sha256": "bca322c1ddb247f4304cc3c0561cbfee5b323a34ad640a583d6f3025b010535a",
+      "artifacts": {
+        "best_model.pt": "bff74c3efca5455c54b2ebda3a325ccfdeba1155b8309490bee4b84d1704bdb9",
+        "normalizer.npz": "a0097c375a86f13d91f0c8eac06e23d8fcffa7541bcc69431e6e69315439238a",
+        "config.json": "ff60c74828184c5c18179e776ae9a9e8c4c93b2e20b18fa9dc3a97c91888e088",
+        "result.json": "47cf1af578710eb656084033dc5b982c41feabe7356131cc51f4f0dbe59ee537",
+        "graph.npz": "ac203bd5794eb16877325292e926bc3a1241697f45f7b78c5bf99bece6e4221a",
+        "training_complete.json": "654a832ec74e6ecbaf6470a1432d8a704ea454c7269201e8d9d06b0a9e9f9502"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74000/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "instance": 0,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74000/full/seed_44",
+      "data_sha256": "9685c388fcd783ea95ee430bbad6fa12a9c43385722d01315cdfd03b089c02ec",
+      "metadata_sha256": "bca322c1ddb247f4304cc3c0561cbfee5b323a34ad640a583d6f3025b010535a",
+      "artifacts": {
+        "best_model.pt": "ec5b34e1e3ec19639f4db42d111aff94ad36562c2f605c674b8a1bfebbf29822",
+        "normalizer.npz": "a0097c375a86f13d91f0c8eac06e23d8fcffa7541bcc69431e6e69315439238a",
+        "config.json": "908058ea986790df0430de8ef5ee26ff4eb67467c391543ba417a56f546f75b5",
+        "result.json": "2830c20a4dcbe66098c054574d88cb6805381c981c3b953f056684b1e5b46c64",
+        "graph.npz": "54c9465bf20ea6beef773eecd835d0daea2ed1c809f1d2c944ed087523f87652",
+        "training_complete.json": "6aab0c7259eb03f2efb183b66eb7d583b9203a8de76447b02dc3f2020f4e3f7a"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "instance": 1,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74001/full/seed_42",
+      "data_sha256": "1672dcefe937e1375fa71837e2d7c8e26826335ab9b4174570f1e73d018801b8",
+      "metadata_sha256": "730247c86ef120b4b9eeafbc73802ac839bdad1264df56be4ab5cdce611f2e3b",
+      "artifacts": {
+        "best_model.pt": "6679cafb7ec8272eb0afda7f3cebfed57a697f92da0f0b47ec3f97d8ef8a93e5",
+        "normalizer.npz": "d82e9dc6ddc23ebeab114e69293320710c1a83c2f12c1ddc25d2a10645cb33e7",
+        "config.json": "3af3015813ca631f6f9cc81dbdb32af1df748a2e2aaae99ecc161c9010ee8ec4",
+        "result.json": "871113df12c713bcc70cec4c03025ee1997e3a97ce63d56ac1604d659866e747",
+        "graph.npz": "1e7ab2eee6917aed1264542e4a107c3eab150da07443c0ae1fe4b8064ed9ce5f",
+        "training_complete.json": "3bfe52f7a9ae996a7082a0dc30ff0ac7feff49dec28ef552fdf71d9aab50f0ce"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "instance": 1,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74001/full/seed_43",
+      "data_sha256": "1672dcefe937e1375fa71837e2d7c8e26826335ab9b4174570f1e73d018801b8",
+      "metadata_sha256": "730247c86ef120b4b9eeafbc73802ac839bdad1264df56be4ab5cdce611f2e3b",
+      "artifacts": {
+        "best_model.pt": "06f5852c087740e0188bd9c75f98b3411ab3e062eb8953beac6467a60d0c6f1d",
+        "normalizer.npz": "d82e9dc6ddc23ebeab114e69293320710c1a83c2f12c1ddc25d2a10645cb33e7",
+        "config.json": "42bff4acf8ee28727084e244ac2403457e2bed665917d9a088457c48bbe0433b",
+        "result.json": "02b3d4fbbdee481447441decce6f8ff392d24aff048b8d76b32667d5aca2ecec",
+        "graph.npz": "548ddcbd4c79ab2cb647ae5e89a972b31814c52c6cb194394111211213d5e369",
+        "training_complete.json": "4490351a9af3aa70261cb6b0a500179b52078882e6c6a226c6ea924151bdff42"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74001/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "instance": 1,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74001/full/seed_44",
+      "data_sha256": "1672dcefe937e1375fa71837e2d7c8e26826335ab9b4174570f1e73d018801b8",
+      "metadata_sha256": "730247c86ef120b4b9eeafbc73802ac839bdad1264df56be4ab5cdce611f2e3b",
+      "artifacts": {
+        "best_model.pt": "729729834b111df7f79937aeb54b91120da1c346088785f8ff71565f6209659c",
+        "normalizer.npz": "d82e9dc6ddc23ebeab114e69293320710c1a83c2f12c1ddc25d2a10645cb33e7",
+        "config.json": "ea5b1ecabbb3eb3cd979bd870bd641a52442215b435d4c8fc51411308ba65bdb",
+        "result.json": "724ed885243688eb92d565e6ce8afe5a9ededcce82c56faa586847e9db45fdc5",
+        "graph.npz": "f37acc28a8431b2bad565f36c622f624e2308f62c1bfe6b4c5176b8fbe607c06",
+        "training_complete.json": "9dacb4875face2f3535285a17bb2c7c2310e1fbb60795caaf9b2a5beebadd0e6"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "instance": 2,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74002/full/seed_42",
+      "data_sha256": "6404d7172944fe064f121745e03e242ec054b2f5b0b14322b00d52a17be5a8b0",
+      "metadata_sha256": "e8e14ef41e89445f71d15d10b26bbb80fb3185ee36b40683b9b1c14ededfed83",
+      "artifacts": {
+        "best_model.pt": "1dbe270421e02625d4417f9e598abba2142f26a7c5fe8bf19e1fd3ae12bbca74",
+        "normalizer.npz": "d469fa426603aac356325e87c1afb657177002bec85f057115b17b4899ecfe2e",
+        "config.json": "27310f726c291874e5c861ed836c79dcaeaf6bd8f5e9c21bc0d392fcf1d6bcb0",
+        "result.json": "9a66c0135b08580beec997163ff885661576a5effda795185df6b595b268dd55",
+        "graph.npz": "cfc2a660395b61063d2e60071ba66d1d6dbdffce626306c1105f6c54ccb017de",
+        "training_complete.json": "63f1cea223a28aa2f583a1ec1c7bed64d4839290992876e624329e4b6b2bf45a"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "instance": 2,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74002/full/seed_43",
+      "data_sha256": "6404d7172944fe064f121745e03e242ec054b2f5b0b14322b00d52a17be5a8b0",
+      "metadata_sha256": "e8e14ef41e89445f71d15d10b26bbb80fb3185ee36b40683b9b1c14ededfed83",
+      "artifacts": {
+        "best_model.pt": "05de3644f8fd03473e78912fe8db4c1c3c4c9bc0f1bb5dac3166873a7850cebb",
+        "normalizer.npz": "d469fa426603aac356325e87c1afb657177002bec85f057115b17b4899ecfe2e",
+        "config.json": "d419fd4178eb9f090887be5881409fc7a0bf7b8a4f1a9da2f4411078c8906ef3",
+        "result.json": "0ae9fa24eed2a4d9371f834fca859d92e61806311cf080f8e08f2a06855a504d",
+        "graph.npz": "6bf9cfde82ee16e7608ff43462e8c94d98c222784404766f4314e3a3f2a12525",
+        "training_complete.json": "22fa86af6c28bd32abd47f9119004986f52444dbfb237efe254c107b20e77b1e"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74002/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "instance": 2,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74002/full/seed_44",
+      "data_sha256": "6404d7172944fe064f121745e03e242ec054b2f5b0b14322b00d52a17be5a8b0",
+      "metadata_sha256": "e8e14ef41e89445f71d15d10b26bbb80fb3185ee36b40683b9b1c14ededfed83",
+      "artifacts": {
+        "best_model.pt": "13de45d0379097ccb1e70f244de1eb9e0efb6dd9ab9b6daade6cf90912974a44",
+        "normalizer.npz": "d469fa426603aac356325e87c1afb657177002bec85f057115b17b4899ecfe2e",
+        "config.json": "03e78acd13a07ec1ab3e6af2413dec4579c036f869d279f6a95f5dec7acaf08c",
+        "result.json": "1d91d5224596d9a6c7230ca1a025de95be00ce743948b9db5ce38733f2e28183",
+        "graph.npz": "f3a13a0418db24223fe316cdda60d4212988762b60794cdf3475d0c51b190cfd",
+        "training_complete.json": "1043b63630c7a10b16d32263f9d11ee0c2aa1ca071158972def06a8ab9da66a3"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "instance": 3,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74003/full/seed_42",
+      "data_sha256": "3b4ef968a5646b0bfdbffd761620d85a012e992bcb19104699a5dfa4690a9cfb",
+      "metadata_sha256": "fb29ce8fcfe89a0c197780ff1dddbd3a1e2c8d592bec0a2b5056478369e3697f",
+      "artifacts": {
+        "best_model.pt": "23ce72fb9046854169753e4c16b3b5615febf5f839ff8613c2a389e2bace16d8",
+        "normalizer.npz": "bdc34122b2095828ba40d8a025a7d4a3fb9337cebd91f4f6a2a9772c8bf533b2",
+        "config.json": "61006d956fc4bca7a6793af52ca0c386d6a58996e976445feea0722ae24835c0",
+        "result.json": "1de74d687796f6836f3a362a6a0b8dc2e6e3c69b2f23c9e72ae7167aedcf7c10",
+        "graph.npz": "137fa3ab39e13eaaae8cf0b4603af65db3209391190e847a291ad06fa9545779",
+        "training_complete.json": "46ce94aa3fce769474275801c2a0759b58abcab254b2f18c36768e87ab37b2ca"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "instance": 3,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74003/full/seed_43",
+      "data_sha256": "3b4ef968a5646b0bfdbffd761620d85a012e992bcb19104699a5dfa4690a9cfb",
+      "metadata_sha256": "fb29ce8fcfe89a0c197780ff1dddbd3a1e2c8d592bec0a2b5056478369e3697f",
+      "artifacts": {
+        "best_model.pt": "278ca4102565f8495b16f7a58a107705abb8ec1353ef0b05e388c9c4a410268c",
+        "normalizer.npz": "bdc34122b2095828ba40d8a025a7d4a3fb9337cebd91f4f6a2a9772c8bf533b2",
+        "config.json": "c6bc85d4244c3880c53be33d4732ccadb7620cb2b038586fdc7547fffdee0fae",
+        "result.json": "f148f563bcee3131f74e5a989061c7a06f048e0e227f86e934a41065610f1294",
+        "graph.npz": "4445013ce4c65542179b57ba53114d866d038b925b57b1515f94d23f571d0e39",
+        "training_complete.json": "27c4eb2f78429d7461da35424b4b585253509e79b76cae49387ee36b2f8329ce"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74003/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "instance": 3,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74003/full/seed_44",
+      "data_sha256": "3b4ef968a5646b0bfdbffd761620d85a012e992bcb19104699a5dfa4690a9cfb",
+      "metadata_sha256": "fb29ce8fcfe89a0c197780ff1dddbd3a1e2c8d592bec0a2b5056478369e3697f",
+      "artifacts": {
+        "best_model.pt": "bccd82d67e48b48c99aa1dc06797caa2fc73aa0786fbd7ebf81e906d016b6ba3",
+        "normalizer.npz": "bdc34122b2095828ba40d8a025a7d4a3fb9337cebd91f4f6a2a9772c8bf533b2",
+        "config.json": "083b9d4bfc6490250d3009142ef0709ac78172fa645a0addaa9333306e6650f2",
+        "result.json": "9bb49a6a15f2fe0dd2d8431f48a0e276cd4893b5fcaf9378bdc0732a7b4b02cf",
+        "graph.npz": "d093926e8ee8682811d5d3219546853e7822392e1eee4b315beffe47ddc95a4b",
+        "training_complete.json": "37649aa7e9a24a3f84f2b490add2cb4ffea879c19f51f173807f1390b4be57ce"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_42",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "instance": 4,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74004/full/seed_42",
+      "data_sha256": "9ca3524a486f30a80aa8af2242a6feac5cae7bc8d9ba012d87c18a74a86057a9",
+      "metadata_sha256": "e0859e13c9eea15dffe080fa6dc70b47772c44841ae495d3bcc380b95027e55b",
+      "artifacts": {
+        "best_model.pt": "4588a45ef85a2783575ec40f65f5e3a50012c5562e00acec59deed16076dc4dd",
+        "normalizer.npz": "8b109d7cd74c477b1f69311bf69ffdfa74afdd2185647a62333727bf7edcb876",
+        "config.json": "74843132fc8512c07997c8516e3ef85c6c749bccc00e1274371e9828bf49e0f3",
+        "result.json": "1b5b42915e70ebd7d04c0207338f26fdc1a254e0c4661476e34c91a2530fcba8",
+        "graph.npz": "7cd40d1448492905d3a6d33c0625a6b4dc463ce4d53e7efbf87681437b8abe17",
+        "training_complete.json": "c15972f2acd48cd9c78a0da27aa8b395f35483c8d9ed7ef4011a2a49e77731dd"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_43",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "instance": 4,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74004/full/seed_43",
+      "data_sha256": "9ca3524a486f30a80aa8af2242a6feac5cae7bc8d9ba012d87c18a74a86057a9",
+      "metadata_sha256": "e0859e13c9eea15dffe080fa6dc70b47772c44841ae495d3bcc380b95027e55b",
+      "artifacts": {
+        "best_model.pt": "6dbdd26c1ad413934211a8db74d49ff489934f82cbe6edd34e96f61044714d90",
+        "normalizer.npz": "8b109d7cd74c477b1f69311bf69ffdfa74afdd2185647a62333727bf7edcb876",
+        "config.json": "301dbeecc5e362912be401752a4dd2dbd22308f33228a4cdd1327048a148610c",
+        "result.json": "6e69355cd435c4988c5cabf698fbf1377e76eec01949b706b5044b074bc127f0",
+        "graph.npz": "2d3879f58041a1bfc2857192e7fa0863d41ab8411508fc1c3677a29d9a26a7b5",
+        "training_complete.json": "0217370d9289970dc5d08e2457c4a62884caab7decc79958b1bd469348822828"
+      }
+    },
+    {
+      "unit_id": "nonlinear_74004/seed_44",
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "instance": 4,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/nonlinear_74004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/nonlinear_74004/full/seed_44",
+      "data_sha256": "9ca3524a486f30a80aa8af2242a6feac5cae7bc8d9ba012d87c18a74a86057a9",
+      "metadata_sha256": "e0859e13c9eea15dffe080fa6dc70b47772c44841ae495d3bcc380b95027e55b",
+      "artifacts": {
+        "best_model.pt": "b13236a38ce59c1922dc348cd4411041164e4ee6afe1ac6e41dafd1abea1b603",
+        "normalizer.npz": "8b109d7cd74c477b1f69311bf69ffdfa74afdd2185647a62333727bf7edcb876",
+        "config.json": "44b2b615d3327fc2e5b4b44319d94f6d192dd5634184af6a93f83e1c3a74d7d8",
+        "result.json": "6a838e08b0f7ed1befebd13a7e1bae5b58d0d7b3e527545f35c088c944fac2f0",
+        "graph.npz": "b7a0f55fa3afde0b5ce170f8a111823c00cae1922c7200e32d9f18dbe58dcd84",
+        "training_complete.json": "0c3dbca5d5a54dfba8429700aa06a16e592dceb0d896523f851cd42f1c43580c"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "instance": 0,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75000/full/seed_42",
+      "data_sha256": "1eed1beb28e1395f31dbc876c2b5369af06cbf4d0e9be27fb8e459694b68a372",
+      "metadata_sha256": "a106db48f99f98a7b712b76e91d92b6c4eae02337be976036cca9a92b8af2a7d",
+      "artifacts": {
+        "best_model.pt": "19b2610c23a691a8011b89d837f46c50b6c9b90b0a9ad027cdbec4855543924f",
+        "normalizer.npz": "1f9454728a92b929b283d810f976293e19c5b499f547f3408cbed8acec10465a",
+        "config.json": "b611941e5d15436e3d0a7e726f0372217dfa1a3af7f63f635b5b7caee80bfef0",
+        "result.json": "c17012fd9de172b4dd3f32f766e64263c15c1a51dd6e21bbe640016ef7a2eb5a",
+        "graph.npz": "15dbe4efb0819c70994940142be6a4d223bc71ac7955e17717d6166ec2c5f703",
+        "training_complete.json": "98a1da65ed2a4c47ad3ed9a949d8b570a2ee8a82f283788f2b12b08b8eb7b02a"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "instance": 0,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75000/full/seed_43",
+      "data_sha256": "1eed1beb28e1395f31dbc876c2b5369af06cbf4d0e9be27fb8e459694b68a372",
+      "metadata_sha256": "a106db48f99f98a7b712b76e91d92b6c4eae02337be976036cca9a92b8af2a7d",
+      "artifacts": {
+        "best_model.pt": "4b5b4538ca05c6e337316e8e4b4dfd3284c27604476c420124656af22d634258",
+        "normalizer.npz": "1f9454728a92b929b283d810f976293e19c5b499f547f3408cbed8acec10465a",
+        "config.json": "54869d9958ff2dd3e96fcf48deb51a0bd09beb3579bbf3d7549ab0c3acc5a4bb",
+        "result.json": "e996e55d3c1b6a9460aefbe10db77e7e0fee566dce897e05284eb07ed28dfa53",
+        "graph.npz": "1c30593f388b1319aca2689d9735723a4f91fb7b8e77a8b6182670f967915d68",
+        "training_complete.json": "12fb2b429b0b09e30c33caac45b90a741111016a1c7e17b2af3e63a25bb66e6a"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75000/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "instance": 0,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75000",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75000/full/seed_44",
+      "data_sha256": "1eed1beb28e1395f31dbc876c2b5369af06cbf4d0e9be27fb8e459694b68a372",
+      "metadata_sha256": "a106db48f99f98a7b712b76e91d92b6c4eae02337be976036cca9a92b8af2a7d",
+      "artifacts": {
+        "best_model.pt": "33bdf92a36fd1443589dd33d67f27c54d39d3eae1449db7d728921d15efae6f6",
+        "normalizer.npz": "1f9454728a92b929b283d810f976293e19c5b499f547f3408cbed8acec10465a",
+        "config.json": "e5d6852e3082d038e9a5b7b14fb93a28041c22eebdb59cae34082e53de2365ee",
+        "result.json": "6c120a5d0e441937000a54543c72f4cb684d4a4114d7701dbe05e228e044d3d3",
+        "graph.npz": "e997eb87657c474827d7daea5f0026919e61db4da5bff99b58395219555acbfb",
+        "training_complete.json": "43c350f5e12fa65fad42bb695264c74a6842d426cdf59c86e7da08a29f326d26"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "instance": 1,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75001/full/seed_42",
+      "data_sha256": "afb6e4e240f081ec2eeb3fdb50a8949b6f156329f79e2c703f7258114d4592ca",
+      "metadata_sha256": "efaef83f19408b8e56d5967676ce6e4aaba77488fee9100e0015fa9140f6693c",
+      "artifacts": {
+        "best_model.pt": "522645c4cbba7f8a4b1905d35c4b7319685dbff076641db651c60b1fd9c9b719",
+        "normalizer.npz": "74d52cca936f4387deb1549eef6be9e0db9f5997e097a004cc980f265b2ce8fe",
+        "config.json": "31bd1e19dc74071ef70ed5fb5ccd784384e57bcb942763e43d5c476eb1d0d6a4",
+        "result.json": "7ea6dee3c21a9e3ecc4f5345c27929abb716148b6a099b540edd1bc84612cbaf",
+        "graph.npz": "118371ac55d0ad92b5418937569fcfd1173b427babb3d8cc1d73f0829a61cf94",
+        "training_complete.json": "6a7b12cd2245c731c26519ce81a1f45bd1ef9dcef147ce7ff74a873b63491b38"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "instance": 1,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75001/full/seed_43",
+      "data_sha256": "afb6e4e240f081ec2eeb3fdb50a8949b6f156329f79e2c703f7258114d4592ca",
+      "metadata_sha256": "efaef83f19408b8e56d5967676ce6e4aaba77488fee9100e0015fa9140f6693c",
+      "artifacts": {
+        "best_model.pt": "77d8ecc002e04198c655ff0a8af3608fbb1f63a9211ea332a115ed4eda75df85",
+        "normalizer.npz": "74d52cca936f4387deb1549eef6be9e0db9f5997e097a004cc980f265b2ce8fe",
+        "config.json": "c0a1e6c71f8f15d5c53825496259951eaeced055ec7d211685c04f0a88f806ec",
+        "result.json": "8833a6a77659b1f0a27e90f5f4b8eefe5c80a556c74ba54946b42e371b0b44a6",
+        "graph.npz": "f92178c71b336e6705f4ee57bcecc4e85ed289bd3466af91a957d39282730b1f",
+        "training_complete.json": "3cd524936a9114c9f93387224c887433127dcf7e981de8b575c573ee805758b2"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75001/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "instance": 1,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75001",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75001/full/seed_44",
+      "data_sha256": "afb6e4e240f081ec2eeb3fdb50a8949b6f156329f79e2c703f7258114d4592ca",
+      "metadata_sha256": "efaef83f19408b8e56d5967676ce6e4aaba77488fee9100e0015fa9140f6693c",
+      "artifacts": {
+        "best_model.pt": "3e29b278e52a1116fe3de1d5475468307f0d0584a8bd8019444b70fc3df330c1",
+        "normalizer.npz": "74d52cca936f4387deb1549eef6be9e0db9f5997e097a004cc980f265b2ce8fe",
+        "config.json": "a4dc429cb5d2ec64c31b663407002645d9e2021056b921d3383ec0ba0ed12a36",
+        "result.json": "f432a951d84939d7ac6e48b2b676924c5d43ff9ef41c018c9ee63cbf6a29995a",
+        "graph.npz": "89a132cbdfc679a6e3574a64ac4d056f4a69767fe5b717d32aab95f152b4900c",
+        "training_complete.json": "a9b61b7cc0aa1fbe6d00d4a9b1698f45773730b5f0aebcf420dd0a6b534cec2e"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "instance": 2,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75002/full/seed_42",
+      "data_sha256": "97ce59fdb63222a29855b04e66e109674022b02d7bb33de17f1cb20ac4675370",
+      "metadata_sha256": "ddad69f5c8328a5274bebfc0ceec2e5ee19d57062b11ea3357b98b8f4b5db75b",
+      "artifacts": {
+        "best_model.pt": "2a9c3ef83e74e989805a7dc71c7c03b34774eebc216153186b9d446b8000f186",
+        "normalizer.npz": "88928655270cc17a2a487e9cc9cae73ac73d776485ec2f02f11e24d5c55e69df",
+        "config.json": "8a3f43b4d2932ac98a773c50eba9843a2f23958a59395ff737e132864e8e7420",
+        "result.json": "8f04414ae051b07940fef17712c9ffd7ff033cd765484e5f49da0ef82a68ef6a",
+        "graph.npz": "55dcf6f8562dce7a2513ebc0b90d04f31b6b3d39e2bb9397ac6a4c04dff95e36",
+        "training_complete.json": "75f6a8bb4dc5a39918655f076419901a00f6097a0acbd3470e5c7c0c6cba787f"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "instance": 2,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75002/full/seed_43",
+      "data_sha256": "97ce59fdb63222a29855b04e66e109674022b02d7bb33de17f1cb20ac4675370",
+      "metadata_sha256": "ddad69f5c8328a5274bebfc0ceec2e5ee19d57062b11ea3357b98b8f4b5db75b",
+      "artifacts": {
+        "best_model.pt": "5170ac92a9fc9050938caba23203789d0f1f5dada323964d3e28326b7cf15181",
+        "normalizer.npz": "88928655270cc17a2a487e9cc9cae73ac73d776485ec2f02f11e24d5c55e69df",
+        "config.json": "3a0afd60092dde9920eab22d00410ec3be65f482f63d49fc43a039ef65a164cc",
+        "result.json": "4045c1bbec260e79e969600e1265996d47fdd8efa172777c20e94ec7ee94e53b",
+        "graph.npz": "c7ac7e68c0ea91def4d38dc50c82f9856e53dafcac7d1a00b37782f21ca00d95",
+        "training_complete.json": "95265db791481aff37f491f836b2b68a9369254374c034bed7c44adf560f88ca"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75002/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "instance": 2,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75002",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75002/full/seed_44",
+      "data_sha256": "97ce59fdb63222a29855b04e66e109674022b02d7bb33de17f1cb20ac4675370",
+      "metadata_sha256": "ddad69f5c8328a5274bebfc0ceec2e5ee19d57062b11ea3357b98b8f4b5db75b",
+      "artifacts": {
+        "best_model.pt": "31662f140282c8ea5f40936bc0d33597f0591bdce45ebb4d8f416bc449217aef",
+        "normalizer.npz": "88928655270cc17a2a487e9cc9cae73ac73d776485ec2f02f11e24d5c55e69df",
+        "config.json": "612be039965a2e4ae3373f5e4f9970dbea710313f894ea7270a61455c1b2e437",
+        "result.json": "707e20b168f83250c4ae9cfc0b800186137b4eefc2efc467a86f997baee0d2c0",
+        "graph.npz": "5b46a80ecd8403172a812c67def409f653f1457aa942e90b0e329b5a42b3222d",
+        "training_complete.json": "8a2212614ca20043fd1f78f82e78da2fd9107c08c8cf403832936f991ae6cdad"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "instance": 3,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75003/full/seed_42",
+      "data_sha256": "a7f33733263ead8341642a20de205b45cc669e61308bd44fc6aa2de7d854a1bc",
+      "metadata_sha256": "2086e65ba1f209507bca3eec7b362b101f9cae96a4ceaf5905f10b1e7421fad6",
+      "artifacts": {
+        "best_model.pt": "6992dd268da01b722000c4e0b5fa56e6d4159a88827617670528533dc2992fce",
+        "normalizer.npz": "69177b3ca7cbf1e61bd6bc957e9f675dfc9806a0713dda707996bd4bab1f3ecb",
+        "config.json": "ee86aadd797bc08adb8089be824cc9f64c49c55ec70ffe0af45e24bdbf1ca1f4",
+        "result.json": "26f190055f34fb83531d729b148c905f1d5bb2bf93c8d8b1ff77c1269fbe0f93",
+        "graph.npz": "b2ced962f196bde2c6bc483260a2ff0e3fdeec0730434240243f9c85aa8bc521",
+        "training_complete.json": "cdfee04a38c26595cccc434dd1484c446dff9dcff94e22cc1c3883cfbd04c548"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "instance": 3,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75003/full/seed_43",
+      "data_sha256": "a7f33733263ead8341642a20de205b45cc669e61308bd44fc6aa2de7d854a1bc",
+      "metadata_sha256": "2086e65ba1f209507bca3eec7b362b101f9cae96a4ceaf5905f10b1e7421fad6",
+      "artifacts": {
+        "best_model.pt": "e1c95ce32a347424714daf321e7f47473de6cfbce08124cbba43941812991041",
+        "normalizer.npz": "69177b3ca7cbf1e61bd6bc957e9f675dfc9806a0713dda707996bd4bab1f3ecb",
+        "config.json": "1e4fd1579a5c0239af838877475b3be80c949d4bd2ad829d22c1cc2037843756",
+        "result.json": "ccfa9c4d5d28aaa5ad44dbfe5403905d8a37a44e972f868cc761a53cf9998ce4",
+        "graph.npz": "2df7d395715ef9d7a93d3e5b8a2d79d75769e4f315f640efb226c1cca5bfd4f5",
+        "training_complete.json": "db3f0a09b05ed37a2bb13ce8bba45a8ea52b4b4b7156d1d1ebb45a94d287d5ab"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75003/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "instance": 3,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75003",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75003/full/seed_44",
+      "data_sha256": "a7f33733263ead8341642a20de205b45cc669e61308bd44fc6aa2de7d854a1bc",
+      "metadata_sha256": "2086e65ba1f209507bca3eec7b362b101f9cae96a4ceaf5905f10b1e7421fad6",
+      "artifacts": {
+        "best_model.pt": "32b086cdfa12300111c932e32562100072561530d7ff23fd410079cd26725102",
+        "normalizer.npz": "69177b3ca7cbf1e61bd6bc957e9f675dfc9806a0713dda707996bd4bab1f3ecb",
+        "config.json": "ea57990d804f75ad86c759179c096237cadccfbff869b0a16b71d9806cd73c4d",
+        "result.json": "785202132f7c2dc78e3950fef87234085e375d68bd6d3419d8bf1a5c4ea97d93",
+        "graph.npz": "51eaf8813f25ee09b9416ed71551bd377ddf284c93e986e7ef3f1ed0c4cd3f76",
+        "training_complete.json": "f4282b042a586181bd2ae4854f8d6edae20861fcaa1413d089dd06fd184e60b8"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_42",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "instance": 4,
+      "training_seed": 42,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75004/full/seed_42",
+      "data_sha256": "da4f832f1aba9cb3b1ef6768c4f427a9acd838c1fb681ea358a3b390f665ae4f",
+      "metadata_sha256": "49dc87411696f3038e8c80082841f27190882b9e33de913c9c18edc027b1da9d",
+      "artifacts": {
+        "best_model.pt": "1ca64118672c633148b04eeea9ee10516413bfeec21fbfafb6f10eae4d21a9e5",
+        "normalizer.npz": "1773c936388e9ba15ea18d5d5d92d878149fac1fa7391963a2e66df9dcd25a1b",
+        "config.json": "b4fe0c09c8c7ae82aeacb7a117ded15e8f1602fae102de5afb61900d38acec1a",
+        "result.json": "2c6a8db6ce9777befd5282f7ca04fb8fd903fe042a6ecc42275525e62cb763fe",
+        "graph.npz": "73cfcee27bb050372025f3fdf487f742eceec7708d674ec9c66cc7866a0aad35",
+        "training_complete.json": "07eae6a9de2ea09141bdf130df250920ccfa5caedd1e2ae261fe4bd831e12f3d"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_43",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "instance": 4,
+      "training_seed": 43,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75004/full/seed_43",
+      "data_sha256": "da4f832f1aba9cb3b1ef6768c4f427a9acd838c1fb681ea358a3b390f665ae4f",
+      "metadata_sha256": "49dc87411696f3038e8c80082841f27190882b9e33de913c9c18edc027b1da9d",
+      "artifacts": {
+        "best_model.pt": "400e733c43dbd17accb349ab777024b718fbc31ae24e8a7ff5967a383fdd1426",
+        "normalizer.npz": "1773c936388e9ba15ea18d5d5d92d878149fac1fa7391963a2e66df9dcd25a1b",
+        "config.json": "2aa8e4f094649d5cef722762b85e10484e96558d3e1eac8129a84a5cae1eb7e9",
+        "result.json": "3a13de9d798019064f6a63d0fd676345208c378c2998e8ef3de1754295fe7da8",
+        "graph.npz": "0ea3a2231b6971e04ba7830a18ab2aeb79013d3f45944cfc793b055d92ec6f70",
+        "training_complete.json": "baa360a7d11d9d1db3259006018ce1ed80738ea985ddff577a61f9635ef6d345"
+      }
+    },
+    {
+      "unit_id": "periodic_distractors_75004/seed_44",
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "instance": 4,
+      "training_seed": 44,
+      "data_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/data/periodic_distractors_75004",
+      "model_folder": "<research-root>/research_e3_20260907/runs/e3_component_recovery_20260907/models/periodic_distractors_75004/full/seed_44",
+      "data_sha256": "da4f832f1aba9cb3b1ef6768c4f427a9acd838c1fb681ea358a3b390f665ae4f",
+      "metadata_sha256": "49dc87411696f3038e8c80082841f27190882b9e33de913c9c18edc027b1da9d",
+      "artifacts": {
+        "best_model.pt": "d85874c4f2b6ccf9699c41b4a0382ad11d9df9cc581872903160434b40468e02",
+        "normalizer.npz": "1773c936388e9ba15ea18d5d5d92d878149fac1fa7391963a2e66df9dcd25a1b",
+        "config.json": "63ddc87e5d38e819408fc8fdb24cdd18420a5a55629e9dd8326b5128c5e5da0b",
+        "result.json": "13a275c46ca6c8b79f1f560a8ea4f3b74b567e655346910d791c2fb93e2a133d",
+        "graph.npz": "f2483bd0c55bc13816310fcb0076910c88d75bce7f09af7d441e94fa13d4f744",
+        "training_complete.json": "a8597538ba8165811031dda9674c35da25af156a13c15e4cd911ef69c0ab93b0"
+      }
+    }
+  ],
+  "unit_scope": "All 15 existing E3 systems and all 3 full-model seeds; no selection from outcomes",
+  "data_status": "Retrospective mechanism audit on previously analyzed systems, not new confirmatory data",
+  "normal_probe": "The existing 512 unique linspace target indices [train_end, probe_end), window64",
+  "intervention": "Independently permute valid fine-offset weight slots within each query/head/coarse block",
+  "unchanged": [
+    "trained weights",
+    "source candidates",
+    "coarse block candidates",
+    "valid mask",
+    "K_s",
+    "K_c",
+    "radius8",
+    "window8",
+    "key/value tensors",
+    "per-block weight multiset and mass"
+  ],
+  "intervention_replicate_seeds": [
+    91701,
+    91702,
+    91703,
+    91704,
+    91705
+  ],
+  "paired_model_rng_seed": 420042,
+  "numerical_policy": {
+    "dtype": "float32",
+    "amp": false,
+    "tf32": true,
+    "batch": 32,
+    "cpu_threads": 1,
+    "gpus": 1
+  },
+  "primary": [
+    "normal standardized next-step MSE, all channels",
+    "normal standardized next-step MSE, planted target channels"
+  ],
+  "primary_sign": "MSE(permutation)-MSE(learned); positive favors learned local ranking",
+  "secondary": [
+    "joint Top8 endpoint recall tolerance2",
+    "source-lag projection Top8 endpoint recall tolerance2"
+  ],
+  "secondary_scope": "Component-coordinate endpoint recovery; no claim of uniquely identified physical causal delay",
+  "inference_only": true,
+  "new_architecture": false,
+  "retraining": false,
+  "anomaly_generator": false,
+  "selection": "No labels, recovery values or forecast outcomes select units, variants, seeds or permutations",
+  "aggregation": "Average 5 permutations within training seed; average 3 seeds within system; paired system-level bootstrap, 5000 draws, unadjusted 95% intervals. Overall stratifies draws by 3 families; family n=5.",
+  "frozen_bootstrap_seed": 20260917,
+  "engineering_scope": "First existing instance of each family, training seed42, first32 predefined probe windows; engineering outputs are not formal estimates",
+  "validation": "Every formal unit: original versus no-op predictions/relation predictions/maps bitwise identical; all permutations: exact multisets, bijections, same invalid slots and candidate identities; FP32 mass allclose rtol1e-6 atol1e-7",
+  "forward_edit": {
+    "model_sha256": "1dbc64dfdcc05ce5bbdadd097094ad308aa842fe822d2870fa8907b470c8ef1d",
+    "original_method_sha256": "be0f8b6877ca29b106362bb6b1498a4b21bec4f727659d8a71b021e15154f873",
+    "modified_method_sha256": "23902c0086330bbb28e737716c1007c15d1729ad823090487de7276eb5a79fb7",
+    "numerical_edit": "fine_weights = _audit_fine_intervention(self, fine_weights, fine_valid, coarse_source_indices, coarse_lags, fine_lags, fine_value)",
+    "source_restores_exactly_when_insertion_removed": true
+  }
+}

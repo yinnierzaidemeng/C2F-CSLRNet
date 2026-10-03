@@ -1,0 +1,284 @@
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Linear, conditioned retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-linear-conditioned}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.014815 & 0.044444 & 0.088889 & 0.088889 & 0.040071 & 0.118519 & 0.185185 & 12.512857\\
+Shared relations & 0.007407 & 0.059259 & 0.096296 & 0.155556 & 0.155556 & 0.082240 & 0.185185 & 0.162963 & 12.350000\\
+Radius 0 & 0.000000 & 0.000000 & 0.029630 & 0.088889 & 0.088889 & 0.048765 & 0.162963 & 0.288889 & 13.295152\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.074367 & 0.074367 & -- & -- & -- & --\\
+Uniform, full support & 0.002598 & 0.020781 & 0.061191 & 0.098276 & 0.098276 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.083224 & 0.083224 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.029206 & 0.084868 & 0.084868 & -- & -- & -- & --\\
+Oracle-component corr. & 0.933333 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.966667 & 1.000000 & 0.933333 & 0.000000\\
+Oracle neural probe & 0.000000 & 0.111111 & 0.111111 & 0.111111 & 0.111111 & 0.037037 & 0.444444 & 0.333333 & 5.000000\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 0.222222 & 0.166667 & 0.222222 & 0.444444 & 9.250000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Linear, joint retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-linear-joint}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.007407 & 0.029630 & 0.029630 & 0.029630 & 0.018342 & 0.037037 & 0.155556 & 11.354167\\
+Shared relations & 0.002469 & 0.019753 & 0.059259 & 0.088889 & 0.088889 & 0.039300 & 0.101235 & 0.162963 & 12.350000\\
+Radius 0 & 0.000000 & 0.000000 & 0.014815 & 0.059259 & 0.059259 & 0.024321 & 0.125926 & 0.192593 & 12.861111\\
+Uniform, full history & 0.000651 & 0.005208 & 0.015554 & 0.025237 & 0.025237 & -- & -- & -- & --\\
+Uniform, full support & 0.000850 & 0.006803 & 0.020287 & 0.032872 & 0.032872 & -- & -- & -- & --\\
+Uniform, shared support & 0.000731 & 0.005848 & 0.017454 & 0.028305 & 0.028305 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.011852 & 0.028148 & 0.028148 & -- & -- & -- & --\\
+Oracle-component corr. & 0.333333 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.600370 & 1.000000 & 0.577778 & 6.693333\\
+Oracle neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.111111 & 0.000000 & --\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 0.222222 & 0.166667 & 0.111111 & 0.555556 & 8.600000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Linear, projection retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-linear-projection}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.029630 & 0.066667 & 0.074074 & 0.074074 & 0.034021 & 0.125926 & 0.155556 & 11.354167\\
+Shared relations & 0.007407 & 0.059259 & 0.096296 & 0.155556 & 0.155556 & 0.082240 & 0.185185 & 0.162963 & 12.350000\\
+Radius 0 & 0.000000 & 0.000000 & 0.074074 & 0.170370 & 0.170370 & 0.062663 & 0.259259 & 0.192593 & 12.861111\\
+Raw lagged correlation & 0.288889 & 0.533333 & 0.555556 & 0.555556 & 0.555556 & 0.385556 & 0.555556 & 0.577778 & 5.200000\\
+Sparse lag predictor & 0.288889 & 0.800000 & 0.844444 & 0.866667 & 0.866667 & 0.439339 & 0.888889 & 0.622222 & 7.840000\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.074367 & 0.074367 & -- & -- & -- & --\\
+Uniform, full support & 0.002193 & 0.017544 & 0.051825 & 0.083224 & 0.083224 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.083224 & 0.083224 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.001852 & 0.014815 & 0.046914 & 0.106694 & 0.106694 & -- & -- & -- & --\\
+Oracle-component corr. & 0.333333 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.600370 & 1.000000 & 0.577778 & 6.693333\\
+Oracle neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.111111 & 0.000000 & --\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 0.222222 & 0.166667 & 0.222222 & 0.555556 & 8.600000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Nonlinear, conditioned retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-nonlinear-conditioned}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.014815 & 0.014815 & 0.051852 & 0.051852 & 0.020952 & 0.088889 & 0.103704 & 15.970000\\
+Shared relations & 0.000000 & 0.051852 & 0.088889 & 0.148148 & 0.148148 & 0.068607 & 0.207407 & 0.148148 & 12.216667\\
+Radius 0 & 0.000000 & 0.000000 & 0.000000 & 0.200000 & 0.200000 & 0.119515 & 0.259259 & 0.237037 & 13.186508\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.075681 & 0.075681 & -- & -- & -- & --\\
+Uniform, full support & 0.002598 & 0.020781 & 0.061191 & 0.099742 & 0.099742 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.084689 & 0.084689 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.020952 & 0.119577 & 0.119577 & -- & -- & -- & --\\
+Oracle-component corr. & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.000000\\
+Oracle neural probe & 0.000000 & 0.333333 & 0.333333 & 0.444444 & 0.444444 & 0.444444 & 0.555556 & 0.444444 & 2.000000\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 0.333333 & 6.666667\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Nonlinear, joint retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-nonlinear-joint}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.000000 & 0.000000 & 0.014815 & 0.014815 & 0.014815 & 0.044444 & 0.140741 & 7.062500\\
+Shared relations & 0.000000 & 0.007407 & 0.029630 & 0.081481 & 0.081481 & 0.030708 & 0.098765 & 0.148148 & 12.216667\\
+Radius 0 & 0.000000 & 0.000000 & 0.000000 & 0.111111 & 0.111111 & 0.026631 & 0.148148 & 0.111111 & 16.481481\\
+Uniform, full history & 0.000651 & 0.005208 & 0.015554 & 0.025691 & 0.025691 & -- & -- & -- & --\\
+Uniform, full support & 0.000850 & 0.006803 & 0.020287 & 0.033463 & 0.033463 & -- & -- & -- & --\\
+Uniform, shared support & 0.000731 & 0.005848 & 0.017454 & 0.028814 & 0.028814 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.007407 & 0.037037 & 0.037037 & -- & -- & -- & --\\
+Oracle-component corr. & 0.333333 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.598889 & 1.000000 & 0.666667 & 6.966667\\
+Oracle neural probe & 0.000000 & 0.333333 & 0.333333 & 0.333333 & 0.333333 & 0.333333 & 0.333333 & 0.666667 & 11.166667\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 7.000000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Nonlinear, projection retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-nonlinear-projection}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.037037 & 0.044444 & 0.081481 & 0.081481 & 0.062478 & 0.096296 & 0.140741 & 7.062500\\
+Shared relations & 0.000000 & 0.051852 & 0.088889 & 0.148148 & 0.148148 & 0.068607 & 0.207407 & 0.148148 & 12.216667\\
+Radius 0 & 0.000000 & 0.000000 & 0.014815 & 0.177778 & 0.177778 & 0.044912 & 0.288889 & 0.111111 & 16.481481\\
+Raw lagged correlation & 0.311111 & 0.533333 & 0.555556 & 0.555556 & 0.555556 & 0.398360 & 0.555556 & 0.577778 & 8.206667\\
+Sparse lag predictor & 0.333333 & 0.755556 & 0.911111 & 0.911111 & 0.911111 & 0.485979 & 0.911111 & 0.666667 & 7.500000\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.075681 & 0.075681 & -- & -- & -- & --\\
+Uniform, full support & 0.002193 & 0.017544 & 0.051825 & 0.084689 & 0.084689 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.084689 & 0.084689 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.001235 & 0.009877 & 0.027160 & 0.115354 & 0.115354 & -- & -- & -- & --\\
+Oracle-component corr. & 0.333333 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.598889 & 1.000000 & 0.666667 & 6.966667\\
+Oracle neural probe & 0.000000 & 0.333333 & 0.333333 & 0.333333 & 0.333333 & 0.333333 & 0.555556 & 0.666667 & 11.166667\\
+Exhaustive neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.222222 & 0.222222 & 7.000000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Periodic/distractors, conditioned retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-periodic-distractors-conditioned}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.081481 & 0.103704 & 0.229630 & 0.251852 & 0.089647 & 0.214815 & 0.229630 & 10.477778\\
+Shared relations & 0.000000 & 0.007407 & 0.022222 & 0.103704 & 0.118519 & 0.029700 & 0.103704 & 0.155556 & 15.775000\\
+Radius 0 & 0.000000 & 0.000000 & 0.014815 & 0.088889 & 0.155556 & 0.051420 & 0.237037 & 0.281481 & 10.725000\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.075353 & 0.149400 & -- & -- & -- & --\\
+Uniform, full support & 0.002598 & 0.020781 & 0.061191 & 0.099375 & 0.162835 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.084323 & 0.153853 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.024127 & 0.070899 & 0.151321 & -- & -- & -- & --\\
+Oracle-component corr. & 0.660000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.791389 & 1.000000 & 0.911111 & 7.851111\\
+Oracle neural probe & 0.000000 & 0.111111 & 0.111111 & 0.111111 & 0.111111 & 0.055556 & 0.111111 & 0.000000 & --\\
+Exhaustive neural probe & 0.000000 & 0.111111 & 0.222222 & 0.333333 & 0.444444 & 0.222222 & 0.333333 & 0.555556 & 9.600000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Periodic/distractors, joint retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-periodic-distractors-joint}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.074074 & 0.096296 & 0.148148 & 0.162963 & 0.048765 & 0.118519 & 0.303704 & 9.286869\\
+Shared relations & 0.000000 & 0.000000 & 0.004938 & 0.024691 & 0.061728 & 0.007372 & 0.046914 & 0.155556 & 15.775000\\
+Radius 0 & 0.000000 & 0.000000 & 0.000000 & 0.066667 & 0.088889 & 0.045926 & 0.170370 & 0.296296 & 8.556667\\
+Uniform, full history & 0.000651 & 0.005208 & 0.015554 & 0.025578 & 0.053886 & -- & -- & -- & --\\
+Uniform, full support & 0.000850 & 0.006803 & 0.020287 & 0.033315 & 0.057778 & -- & -- & -- & --\\
+Uniform, shared support & 0.000731 & 0.005848 & 0.017454 & 0.028687 & 0.055342 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.000000 & 0.000000 & 0.008889 & 0.022222 & 0.052789 & -- & -- & -- & --\\
+Oracle-component corr. & 0.301852 & 0.922222 & 0.922222 & 0.922222 & 0.933333 & 0.472567 & 0.922222 & 0.555556 & 7.853333\\
+Oracle neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & --\\
+Exhaustive neural probe & 0.000000 & 0.111111 & 0.222222 & 0.222222 & 0.222222 & 0.111111 & 0.222222 & 0.555556 & 9.600000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Periodic/distractors, projection retrieval. R$K$/$\epsilon$ is recall at budget $K$ and tolerance $\epsilon$; Eq uses declared periodic equivalences. Block8 tests eight-coordinate coverage, Src1 is the correct-source probability, and Lag MAE is conditional on that source event. Ordinary learned models average three training seeds within each of five instances. Neural oracle/exhaustive probes use only the first instance and seed 42; oracle-component correlation has privileged components. Uniform rows give exact expected recall only; undefined metrics are --.}
+\label{tab:e3-periodic-distractors-projection}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & R1/0 & R8/0 & R8/1 & R8/2 & Eq8/2 & MRR8/2 & Block8 & Src1 & Lag MAE\\
+\midrule
+C2F full & 0.000000 & 0.081481 & 0.111111 & 0.244444 & 0.325926 & 0.112540 & 0.266667 & 0.303704 & 9.286869\\
+Shared relations & 0.000000 & 0.007407 & 0.022222 & 0.103704 & 0.118519 & 0.029700 & 0.103704 & 0.155556 & 15.775000\\
+Radius 0 & 0.000000 & 0.000000 & 0.096296 & 0.214815 & 0.237037 & 0.109647 & 0.385185 & 0.296296 & 8.556667\\
+Raw lagged correlation & 0.200000 & 0.444444 & 0.444444 & 0.466667 & 0.533333 & 0.334630 & 0.488889 & 0.600000 & 9.406667\\
+Sparse lag predictor & 0.311111 & 0.666667 & 0.688889 & 0.688889 & 0.822222 & 0.445767 & 0.800000 & 0.600000 & 5.633333\\
+Uniform, full history & 0.001953 & 0.015625 & 0.046235 & 0.075353 & 0.149400 & -- & -- & -- & --\\
+Uniform, full support & 0.002193 & 0.017544 & 0.051825 & 0.084323 & 0.153853 & -- & -- & -- & --\\
+Uniform, shared support & 0.002193 & 0.017544 & 0.051825 & 0.084323 & 0.153853 & -- & -- & -- & --\\
+Uniform, radius-0 support & 0.003086 & 0.024691 & 0.051852 & 0.109894 & 0.187390 & -- & -- & -- & --\\
+Oracle-component corr. & 0.301852 & 0.924206 & 0.926984 & 0.926984 & 0.933333 & 0.490368 & 0.965873 & 0.555556 & 7.853333\\
+Oracle neural probe & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & 0.000000 & --\\
+Exhaustive neural probe & 0.000000 & 0.111111 & 0.222222 & 0.444444 & 0.555556 & 0.238095 & 0.444444 & 0.555556 & 9.600000\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Strict edge-membership ranking AP and conditional component identification. Accuracy is defined only where a top-1 source--delay maps to one planted component. Reported accuracy is the mean of defined instance-level ratios, not an unconditional component recovery score.}
+\label{tab:e3-component-ranking}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrr}
+\toprule
+Family / method & AP & Unambiguous probability & Component accuracy & Defined instances\\
+\midrule
+Linear / C2F full & 0.008422 & 0.000000 & -- & 0\\
+Linear / Shared relations & 0.012550 & 0.022222 & 0.333333 & 1\\
+Linear / Radius 0 & 0.001953 & 0.000000 & -- & 0\\
+Linear / Oracle-component corr. & 0.967778 & 1.000000 & 1.000000 & 5\\
+Linear / Oracle neural probe & 0.012274 & 0.000000 & -- & 0\\
+Linear / Exhaustive neural probe & 0.024710 & 0.000000 & -- & 0\\
+Nonlinear / C2F full & 0.007219 & 0.000000 & -- & 0\\
+Nonlinear / Shared relations & 0.009473 & 0.000000 & -- & 0\\
+Nonlinear / Radius 0 & 0.001953 & 0.000000 & -- & 0\\
+Nonlinear / Oracle-component corr. & 0.967037 & 1.000000 & 1.000000 & 5\\
+Nonlinear / Oracle neural probe & 0.113231 & 0.000000 & -- & 0\\
+Nonlinear / Exhaustive neural probe & 0.015348 & 0.000000 & -- & 0\\
+Periodic/distractors / C2F full & 0.027044 & 0.000000 & -- & 0\\
+Periodic/distractors / Shared relations & 0.005531 & 0.000000 & -- & 0\\
+Periodic/distractors / Radius 0 & 0.001953 & 0.000000 & -- & 0\\
+Periodic/distractors / Oracle-component corr. & 0.627059 & 0.905556 & 1.000000 & 5\\
+Periodic/distractors / Oracle neural probe & 0.010493 & 0.000000 & -- & 0\\
+Periodic/distractors / Exhaustive neural probe & 0.072208 & 0.000000 & -- & 0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[pos=H]
+\centering\scriptsize
+\caption{Paired joint Top-8/tolerance-2 differences. Seeds are averaged within each system before 5,000 instance bootstrap draws. Intervals are unadjusted; all predeclared families and controls are retained.}
+\label{tab:e3-paired}
+\resizebox{\linewidth}{!}{%
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Family & Control & Full minus control & Lower & Upper & Instances\\
+\midrule
+Linear & Shared relations & -0.059259 & -0.103704 & -0.022222 & 5\\
+Linear & Radius 0 & -0.029630 & -0.066667 & 0.022222 & 5\\
+Nonlinear & Shared relations & -0.066667 & -0.098765 & -0.032099 & 5\\
+Nonlinear & Radius 0 & -0.096296 & -0.155556 & -0.007407 & 5\\
+Periodic/distractors & Shared relations & 0.123457 & 0.007407 & 0.229630 & 5\\
+Periodic/distractors & Radius 0 & 0.081481 & -0.066667 & 0.214815 & 5\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

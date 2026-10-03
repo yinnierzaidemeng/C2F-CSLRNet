@@ -1,0 +1,488 @@
+{
+  "complete": true,
+  "counts": {
+    "official_files": 180,
+    "identities": 1620,
+    "prediction_region_rows": 6480,
+    "file_region_means": 2160,
+    "paired_file_regions": 1440
+  },
+  "prediction_summary": [
+    {
+      "variant": "full",
+      "region": "fit",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 0.26514022188998915,
+      "median": 0.18906747273873087
+    },
+    {
+      "variant": "full",
+      "region": "validation",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 7.858027012922197,
+      "median": 0.1401727427548904
+    },
+    {
+      "variant": "full",
+      "region": "normal",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 33134110389508.43,
+      "median": 0.6339403403390464
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 417736538487088.7,
+      "median": 4.344088214645528
+    },
+    {
+      "variant": "shared",
+      "region": "fit",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 0.2639906256991953,
+      "median": 0.1840850153060259
+    },
+    {
+      "variant": "shared",
+      "region": "validation",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 7.848967899624881,
+      "median": 0.1417729630281218
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 33134110360933.895,
+      "median": 0.6311667114587189
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 417736538486793.5,
+      "median": 4.8304635581585185
+    },
+    {
+      "variant": "radius0",
+      "region": "fit",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 0.26431095326156134,
+      "median": 0.18841570209287029
+    },
+    {
+      "variant": "radius0",
+      "region": "validation",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 7.852695776253528,
+      "median": 0.14123048490267773
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 33134110427264.465,
+      "median": 0.634799679560523
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "expected_files": 180,
+      "valid_files": 180,
+      "missing_files": 0,
+      "mean": 417736538487602.94,
+      "median": 4.429384911773324
+    }
+  ],
+  "prediction_gaps": [
+    {
+      "left": "full",
+      "right": "shared",
+      "region": "fit",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 0.0011495961907938407,
+      "median_gap": -0.00020379809081495217,
+      "full_wins": 102,
+      "ties": 0,
+      "full_losses": 78
+    },
+    {
+      "left": "full",
+      "right": "shared",
+      "region": "validation",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 0.009059113297315246,
+      "median_gap": -0.00031575348418250566,
+      "full_wins": 106,
+      "ties": 0,
+      "full_losses": 74
+    },
+    {
+      "left": "full",
+      "right": "shared",
+      "region": "normal",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 28574.537506135257,
+      "median_gap": 0.0005269605748527452,
+      "full_wins": 84,
+      "ties": 4,
+      "full_losses": 92
+    },
+    {
+      "left": "full",
+      "right": "shared",
+      "region": "anomalous",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 295.22526660477445,
+      "median_gap": 0.00541696961935768,
+      "full_wins": 75,
+      "ties": 4,
+      "full_losses": 101
+    },
+    {
+      "left": "full",
+      "right": "radius0",
+      "region": "fit",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 0.0008292686284277886,
+      "median_gap": 1.56380628058006e-05,
+      "full_wins": 90,
+      "ties": 0,
+      "full_losses": 90
+    },
+    {
+      "left": "full",
+      "right": "radius0",
+      "region": "validation",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": 0.0053312366686688135,
+      "median_gap": -0.0002717463997413405,
+      "full_wins": 107,
+      "ties": 0,
+      "full_losses": 73
+    },
+    {
+      "left": "full",
+      "right": "radius0",
+      "region": "normal",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": -37756.03854568226,
+      "median_gap": -0.0003798795781711009,
+      "full_wins": 91,
+      "ties": 4,
+      "full_losses": 85
+    },
+    {
+      "left": "full",
+      "right": "radius0",
+      "region": "anomalous",
+      "expected_files": 180,
+      "valid_pairs": 180,
+      "missing_pairs": 0,
+      "mean_gap": -514.1931860849236,
+      "median_gap": -0.0008987717034220745,
+      "full_wins": 94,
+      "ties": 4,
+      "full_losses": 82
+    }
+  ],
+  "top_file_rows": [
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034758670578.5
+    },
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034758670578.5
+    },
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034758670578.5
+    },
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034758670578.5
+    },
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 5,
+      "series": "134_OPPORTUNITY_id_6_HumanActivity_tr_1477_1st_1577",
+      "mean_mse_across_three_seeds": 181453510.67193794
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225300176e+16
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225300176e+16
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225300176e+16
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225300176e+16
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 5,
+      "series": "059_SMD_id_3_Facility_tr_757_1st_857",
+      "mean_mse_across_three_seeds": 16782940.54868919
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034757384790.8
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034757384790.8
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034757384790.8
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034757384790.8
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 5,
+      "series": "134_OPPORTUNITY_id_6_HumanActivity_tr_1477_1st_1577",
+      "mean_mse_across_three_seeds": 181453549.6432251
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.879814422528704e+16
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.879814422528704e+16
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.879814422528704e+16
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.879814422528704e+16
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 5,
+      "series": "059_SMD_id_3_Facility_tr_757_1st_857",
+      "mean_mse_across_three_seeds": 16782916.0716295
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034760369671.8
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034760369671.8
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034760369671.8
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1491034760369671.8
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 5,
+      "series": "134_OPPORTUNITY_id_6_HumanActivity_tr_1477_1st_1577",
+      "mean_mse_across_three_seeds": 181453378.26794696
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 1,
+      "series": "199_Exathlon_id_26_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225323336e+16
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 2,
+      "series": "198_Exathlon_id_25_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225323336e+16
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 3,
+      "series": "190_Exathlon_id_17_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225323336e+16
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 4,
+      "series": "188_Exathlon_id_15_Facility_tr_12538_1st_12638",
+      "mean_mse_across_three_seeds": 1.8798144225323336e+16
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 5,
+      "series": "059_SMD_id_3_Facility_tr_757_1st_857",
+      "mean_mse_across_three_seeds": 16782937.205224667
+    }
+  ],
+  "affected_file_rows": [
+    {
+      "variant": "full",
+      "region": "normal",
+      "rank": 35,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 4.888024675134151
+    },
+    {
+      "variant": "full",
+      "region": "anomalous",
+      "rank": 12,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 150168.40102503076
+    },
+    {
+      "variant": "shared",
+      "region": "normal",
+      "rank": 35,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 4.878964192529241
+    },
+    {
+      "variant": "shared",
+      "region": "anomalous",
+      "rank": 12,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 150169.97607860566
+    },
+    {
+      "variant": "radius0",
+      "region": "normal",
+      "rank": 34,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 4.876839048573902
+    },
+    {
+      "variant": "radius0",
+      "region": "anomalous",
+      "rank": 12,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609",
+      "mean_mse_across_three_seeds": 150166.82719186344
+    }
+  ],
+  "notes": {
+    "prediction": "Exact original prediction-only aggregation: average three fits within file, then arithmetic mean and median across every official file; no target weighting/outlier deletion.",
+    "tolerance": "full wins if full-control < -(1e-12+1e-8*(abs(full)+abs(control))); symmetric losses; otherwise tie.",
+    "costs": "Not computed or pooled. Old execution costs remain pre-correction historical observations; corrected fit times form a separate repair stratum.",
+    "inference": "No new model, inference, detection scoring, bootstrap, or p-value operation. Rankings identify files dominating saved prediction errors, not a new channel-level causal audit."
+  }
+}

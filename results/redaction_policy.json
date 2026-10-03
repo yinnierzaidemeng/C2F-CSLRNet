@@ -1,0 +1,92 @@
+{
+  "scope": "Personal filesystem paths and execution identities only",
+  "scientific_fields_removed": false,
+  "numeric_or_boolean_values_changed": false,
+  "json_policy": "Keep all fields and list entries; substitute private path/identity strings and preserve source SHA256",
+  "csv_policy": "Copied byte-for-byte; no metric tokens or path columns changed",
+  "binary_policy": "Nine scorer checkpoints copied byte-for-byte after static ZIP and pickle-operand inspection; no model loading",
+  "history_policy": "Historical ZIP containers, retired diagnosis/alarms/global-routing studies and superseded detection snapshots are excluded. Two still-current synthetic retrieval studies are selected from their original archives without recomputing results.",
+  "excluded": [
+    "all trained predictor checkpoints",
+    "raw benchmark data",
+    "prediction/residual trajectories",
+    "metric and bootstrap NPZ arrays",
+    "private execution logs and commands outside selected summaries"
+  ],
+  "limits": "Integrity and packaging checks do not reproduce training, metrics or confidence intervals",
+  "licensing": "No separate open-data or open-model license is selected. The original-code license does not automatically relicense results, checkpoints or third-party assets; release authority remains the author's responsibility.",
+  "redactions_by_file": [
+    {
+      "path": "results/retained/scoring/summary.json",
+      "count": 3
+    },
+    {
+      "path": "results/retained/scoring/analysis_sources.json",
+      "count": 3981
+    },
+    {
+      "path": "results/retained/scoring/protocol.json",
+      "count": 6
+    },
+    {
+      "path": "results/retained/branches_native/sources.json",
+      "count": 1263
+    },
+    {
+      "path": "results/historical_control/sources.json",
+      "count": 543
+    },
+    {
+      "path": "results/strict/structure/summary.json",
+      "count": 14
+    },
+    {
+      "path": "results/strict/structure/sources.json",
+      "count": 1620
+    },
+    {
+      "path": "results/strict/structure/verification.json",
+      "count": 2
+    },
+    {
+      "path": "checkpoints/bounded/42/complete.json",
+      "count": 43
+    },
+    {
+      "path": "checkpoints/bounded/43/complete.json",
+      "count": 43
+    },
+    {
+      "path": "checkpoints/bounded/44/complete.json",
+      "count": 43
+    },
+    {
+      "path": "checkpoints/bounded/models_frozen.json",
+      "count": 69
+    },
+    {
+      "path": "checkpoints/unbounded/42/complete.json",
+      "count": 4
+    },
+    {
+      "path": "checkpoints/unbounded/43/complete.json",
+      "count": 4
+    },
+    {
+      "path": "checkpoints/unbounded/44/complete.json",
+      "count": 4
+    },
+    {
+      "path": "results/retrieval/intervention/protocol.json",
+      "count": 91
+    },
+    {
+      "path": "results/retrieval/intervention/verification.json",
+      "count": 2
+    },
+    {
+      "path": "results/retrieval/intervention/recall_resolution_diagnostic.json",
+      "count": 2
+    }
+  ]
+}

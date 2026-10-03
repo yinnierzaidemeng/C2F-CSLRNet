@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-28T04:44:01.406672+00:00",
+  "total_cohort": 1620,
+  "corrected_units": [
+    {
+      "variant": "full",
+      "seed": 42,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "full",
+      "seed": 43,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "full",
+      "seed": 44,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "radius0",
+      "seed": 42,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "radius0",
+      "seed": 43,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "radius0",
+      "seed": 44,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "shared",
+      "seed": 42,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "shared",
+      "seed": 43,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    },
+    {
+      "variant": "shared",
+      "seed": 44,
+      "series": "060_SMD_id_4_Facility_tr_7176_1st_10609"
+    }
+  ],
+  "unchanged_units": 1611,
+  "reconstructed_metric_values": 216,
+  "reconstructed_regional_values": 36,
+  "original_gate_models_unchanged": true,
+  "full_cohort_means_sd_intervals_rebuilt": true,
+  "original_resampling_bitwise_equal": true,
+  "unchanged_metric_tensors_bitwise_equal": true,
+  "scope": "All changed saved vectors reconstructed with same frozen metric algorithm, not an independent algorithm; no unchanged rescoring.",
+  "summary_sha256": "89f484e7e3c49eb766bc2ee2fdf40a3130e04fa2568b8ef34a1ddbe3be02cc9d",
+  "code_sha256": "9549b00213c6859cd5751eb9861ec09aa82be108e084696beb96cc6aad07dd14",
+  "command": [
+    "<research-root>/research_normalization_repair_20260928/scoring_code/verify_strict_overlay_v1.py",
+    "--affected-manifest",
+    "<research-root>/research_normalization_repair_20260928/scope01/strict_affected.json",
+    "--affected-manifest-sha256",
+    "e9e2076ef1b0791e286ea7dc55a033c7297568404d35c40928cc2363c6f2227c"
+  ]
+}

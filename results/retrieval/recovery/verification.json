@@ -1,0 +1,859 @@
+{
+  "checked_utc": "2026-09-07T11:01:36.604578+00:00",
+  "passed": true,
+  "engineering": false,
+  "expected_neural_runs": 141,
+  "completed_neural_runs": 141,
+  "neural_complete": true,
+  "completed_statistics_instances": 15,
+  "expected_instances": 15,
+  "diagnostic_exports": 45,
+  "records": [
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 42,
+      "variant": "oracle"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 42,
+      "variant": "exhaustive"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73000,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73001,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73002,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73003,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "linear",
+      "data_seed": 73004,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 42,
+      "variant": "oracle"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 42,
+      "variant": "exhaustive"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74000,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74001,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74002,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74003,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "nonlinear",
+      "data_seed": 74004,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 42,
+      "variant": "oracle"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 42,
+      "variant": "exhaustive"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75000,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75001,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75002,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75003,
+      "train_seed": 44,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 42,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 42,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 42,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 43,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 43,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 43,
+      "variant": "radius0"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 44,
+      "variant": "full"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 44,
+      "variant": "shared"
+    },
+    {
+      "family": "periodic_distractors",
+      "data_seed": 75004,
+      "train_seed": 44,
+      "variant": "radius0"
+    }
+  ]
+}

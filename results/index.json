@@ -1,0 +1,127 @@
+{
+  "schema": "corrected-study-index-v1",
+  "entries": {
+    "retained_scoring": {
+      "summary": "results/retained/scoring/summary.json",
+      "by_source.csv": "results/retained/scoring/by_source.csv",
+      "paired_contrasts.csv": "results/retained/scoring/paired_contrasts.csv",
+      "per_file_metrics.csv": "results/retained/scoring/per_file_metrics.csv",
+      "summary.csv": "results/retained/scoring/summary.csv",
+      "analysis_sources.json": "results/retained/scoring/analysis_sources.json",
+      "protocol.json": "results/retained/scoring/protocol.json"
+    },
+    "retained_branches_native": {
+      "summary": "results/retained/branches_native/summary.json",
+      "by_source.csv": "results/retained/branches_native/by_source.csv",
+      "contrasts.csv": "results/retained/branches_native/contrasts.csv",
+      "per_file_metrics.csv": "results/retained/branches_native/per_file_metrics.csv",
+      "sources.json": "results/retained/branches_native/sources.json"
+    },
+    "historical_control": {
+      "summary": "results/historical_control/summary.json",
+      "per_file_metrics.csv": "results/historical_control/per_file_metrics.csv",
+      "sources.json": "results/historical_control/sources.json"
+    },
+    "strict_structure": {
+      "summary": "results/strict/structure/summary.json",
+      "by_source.csv": "results/strict/structure/by_source.csv",
+      "contrasts.csv": "results/strict/structure/contrasts.csv",
+      "correction_effects.csv": "results/strict/structure/correction_effects.csv",
+      "per_file_metrics.csv": "results/strict/structure/per_file_metrics.csv",
+      "prediction_regions.csv": "results/strict/structure/prediction_regions.csv",
+      "sources.json": "results/strict/structure/sources.json",
+      "verification.json": "results/strict/structure/verification.json"
+    },
+    "strict_prediction": {
+      "summary": "results/strict/prediction/summary.json",
+      "prediction_file_means.csv": "results/strict/prediction/prediction_file_means.csv",
+      "prediction_file_rankings.csv": "results/strict/prediction/prediction_file_rankings.csv",
+      "prediction_filewise_gaps.csv": "results/strict/prediction/prediction_filewise_gaps.csv",
+      "prediction_gap_summary.csv": "results/strict/prediction/prediction_gap_summary.csv",
+      "prediction_summary.csv": "results/strict/prediction/prediction_summary.csv"
+    },
+    "synthetic_recovery": {
+      "summary": "results/retrieval/recovery/summary.json",
+      "protocol": "results/retrieval/recovery/protocol.json",
+      "verification": "results/retrieval/recovery/verification.json",
+      "within_summary": [
+        "per_run",
+        "per_instance",
+        "family_summaries",
+        "paired_contrasts",
+        "uncertainty"
+      ],
+      "scope": "15 generated systems; relation-recovery mechanism study, not real-data detection"
+    },
+    "retrieval_intervention": {
+      "summary": "results/retrieval/intervention/summary.json",
+      "protocol": "results/retrieval/intervention/protocol.json",
+      "verification": "results/retrieval/intervention/verification.json",
+      "within_summary": [
+        "per_seed",
+        "per_system",
+        "summaries",
+        "multiplicity"
+      ],
+      "scope": "Fixed-candidate local weight permutation; 45 fitted seeds across 15 generated systems"
+    }
+  },
+  "cohorts": {
+    "retained_scoring": {
+      "summary_id": "retained_analysis01/summary.json",
+      "branches_and_native_paano_id": "retained_replay01/summary.json",
+      "historical_control_id": "control_analysis01/summary.json",
+      "scope": "Saved predictor fits; same residuals within each scorer comparison",
+      "warning": "Do not substitute strict-cohort C2F numbers or compute gains across cohorts"
+    },
+    "strict_structure": {
+      "summary_id": "strict_analysis01/summary.json",
+      "prediction_summary_id": "strict_prediction01/prediction_summary.json",
+      "scope": "Unified-training full/shared/radius0, three predictor fits per structure",
+      "warning": "Distinct fits from retained-scoring cohort"
+    }
+  },
+  "protocol": {
+    "primary": "F: equal weight across the official 180 Evaluation files",
+    "sensitivity_C": "164 distinct contents, content-weighted",
+    "sensitivity_X": "170 files / 162 contents after excluding exact Tuning overlaps",
+    "target_domain": "Post-training targets only; no point adjustment",
+    "metrics": [
+      "VUS-PR",
+      "VUS-ROC",
+      "Range-F1",
+      "AUC-PR",
+      "AUC-ROC",
+      "Point-F1"
+    ],
+    "predictor_seeds": [
+      42,
+      43,
+      44
+    ],
+    "gate_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_handling": "Gate averaging within file and predictor fit; predictor and gate sample SD separate",
+    "uncertainty": "Saved dataset/content-group paired bootstrap, unadjusted and separate familywise intervals",
+    "gate": "Original official-Tuning-supervised bounded gates frozen; no global routing",
+    "paano": "Native offline scores aligned to target indices; distinct supervision/information conditions",
+    "ddp": "Nine rebuilt fits preserve saved two-GPU configuration and new actual world_size=2; prior actual-world-size logs incomplete, not bitwise historical reproduction",
+    "source_independence": "Previously accessed benchmark; not untouched new-source validation"
+  },
+  "checkpoints": [
+    "checkpoints/bounded/42/constant.pt",
+    "checkpoints/bounded/42/gate.pt",
+    "checkpoints/bounded/43/constant.pt",
+    "checkpoints/bounded/43/gate.pt",
+    "checkpoints/bounded/44/constant.pt",
+    "checkpoints/bounded/44/gate.pt",
+    "checkpoints/unbounded/42/gate.pt",
+    "checkpoints/unbounded/43/gate.pt",
+    "checkpoints/unbounded/44/gate.pt"
+  ],
+  "scientific_recomputation": false,
+  "scope": "Existing complete corrected summaries and CSVs; retained and strict cohorts must not be pooled"
+}
