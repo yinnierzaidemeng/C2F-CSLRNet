@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "tag": "data-v1.0.0",
+  "publication_date": "2026-10-18",
+  "asset": "C2F_public_research_data_20261018.zip",
+  "bytes": 30508310,
+  "sha256": "7fca1cb1da19679414e94d8326939a26fe5ec055174a0db550a0005abd4f03d2",
+  "download_url": "https://github.com/yinnierzaidemeng/C2F-CSLRNet/releases/download/data-v1.0.0/C2F_public_research_data_20261018.zip",
+  "release_url": "https://github.com/yinnierzaidemeng/C2F-CSLRNet/releases/tag/data-v1.0.0",
+  "data_license": "CC-BY-4.0",
+  "software_source_version": "0.1.0",
+  "original_scientific_source_commit": "5ac861f3b129e01333d73a6d25481754e9faaa9e",
+  "scope": "Saved results, configurations and provenance; path-only public metadata normalization"
+}

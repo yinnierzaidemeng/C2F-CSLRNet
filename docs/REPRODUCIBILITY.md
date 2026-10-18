@@ -1,5 +1,11 @@
 # Reproduction scope
 
+Current manuscript data are distributed in the public `data-v1.0.0` release.
+Its `PUBLIC_DATA_INDEX.json` separates the adopted studies and
+`SOURCE_BINDINGS.json` records the original saved members and path-only
+normalization. The repository's `results/` tree preserves the 3 October
+snapshot; current manuscript values are read from the versioned data release.
+
 This release provides research components and already computed results.
 File-integrity checks can run without scientific packages. They establish that
 the delivered files match the release manifest; they do not establish an

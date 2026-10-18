@@ -1,8 +1,8 @@
 {
   "schema": "c2f-research-release-v1",
-  "prepared_date": "2026-10-03",
-  "publicly_published": false,
-  "scope": "Curated research components and saved corrected result artifacts; not an end-to-end validated training release.",
+  "prepared_date": "2026-10-18",
+  "publicly_published": true,
+  "scope": "Public research components, preserved dated results and current versioned data-release metadata",
   "files": [
     {
       "path": ".gitattributes",
@@ -101,8 +101,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 623,
-      "sha256": "d152e5d1f3d6561b07eccf4a912a88cae9254a54392c101c16b866f330278fa1"
+      "bytes": 1064,
+      "sha256": "91e34262efd303c144c91fddaf3fc621c55662b5e2947880e17715e94156c869"
     },
     {
       "path": "configs/bounded_gate_protocol.json",
@@ -125,9 +125,24 @@
       "sha256": "263fc05800c13e69da00531f00f6a0b4497866b0f5b324f217d48865f9957f6f"
     },
     {
+      "path": "data/CITATION_DATA.cff",
+      "bytes": 729,
+      "sha256": "3fd400845f08fbcda0e8b9d7400e402699df4641b4dd24e6e90d29ea0adcfd29"
+    },
+    {
+      "path": "data/DATA_RELEASE.json",
+      "bytes": 734,
+      "sha256": "1728e06e95736147e91d9f47ea09744658def0c1f28b5db167efb75b08565381"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1846,
+      "sha256": "04bc4e983bef19ab4d14202e3d1836772dc17bf0ce1de9ecbc335fb60703056b"
+    },
+    {
       "path": "docs/DATASETS.md",
-      "bytes": 1418,
-      "sha256": "e7441af8d5d6905319fe29e3318ec6ae879d5f8322bca82d6758320fb694e675"
+      "bytes": 1412,
+      "sha256": "510de3b717fd792bacb7144ba5f5ad193eed85c04658bbda18369e72a11f0186"
     },
     {
       "path": "docs/IMPLEMENTATION.md",
@@ -136,13 +151,13 @@
     },
     {
       "path": "docs/LICENSING.md",
-      "bytes": 1082,
-      "sha256": "da20e0508bc78ea984188be4ddb81fd7d30721352ca7d1aa74d6b2c78db3a0c2"
+      "bytes": 1338,
+      "sha256": "63d5d18eaf07c0a75897f33c493622fdde7f7d76a4c141759614a6d06fe9ec40"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 2896,
-      "sha256": "5c0a92e3c762eec533531fb1829cf16b9ab02d65ee8871a43d092247e93e0f9d"
+      "bytes": 3259,
+      "sha256": "8ded8c4eca8ec456c798f8cd864a6d8385935e2ba9466599fc7d9bd648fb617b"
     },
     {
       "path": "docs/THIRD_PARTY.md",
@@ -155,19 +170,24 @@
       "sha256": "aed1eea0a7cf8186ea2453ebb396258a85fa24ded5ce5cb90b7cd2e96c738915"
     },
     {
+      "path": "LICENSE_DATA.txt",
+      "bytes": 707,
+      "sha256": "5909dbcd895dec6643c2cb0d832f1c2ac4b7af7035112bcc37028e0dbaaebb79"
+    },
+    {
       "path": "pyproject.toml",
       "bytes": 492,
       "sha256": "655b4766fcfc776f7d9601a1dfdd0d9a2a710b624df550053518faede2f1b918"
     },
     {
       "path": "README.md",
-      "bytes": 4818,
-      "sha256": "c70d1cbce40ecf18876ba9fda01edf2acf8d44eebba737953bc0a191a12da9c6"
+      "bytes": 5668,
+      "sha256": "a969a76b9e4c114e68321cb538fd7da744761e00db0f80ee81011d1ec6ac910d"
     },
     {
       "path": "README_zh.md",
-      "bytes": 1640,
-      "sha256": "1a12af1964e43254d3ec96a8e614def3f9ac37f7037e5f374c3685183dd5b14c"
+      "bytes": 2252,
+      "sha256": "f432f33489f0e7b628884101277d1d604da8c78649f1af0bbbc5e97691bfa848"
     },
     {
       "path": "requirements.txt",
@@ -196,13 +216,13 @@
     },
     {
       "path": "results/manifest.json",
-      "bytes": 29460,
-      "sha256": "44a8eed91540596a1fd72b09d503c1844a5230f3900fd294129d6cd06ce59a63"
+      "bytes": 30179,
+      "sha256": "29f3caa1e9390caaf4fcaf40e6c8d2c3176231086375b8db05bef85906b37592"
     },
     {
       "path": "results/README.md",
-      "bytes": 3997,
-      "sha256": "a445b116bf37d4cfd9d99d38e54ede6c7cfa174596da586f9b2d9dbcd8f679e7"
+      "bytes": 4349,
+      "sha256": "f1900cca0ffca6f20dcbe48255d88d18d87f6d0b64cc48ed5818441b4ba581d0"
     },
     {
       "path": "results/redaction_policy.json",
@@ -398,6 +418,11 @@
       "path": "scripts/verify_artifacts.py",
       "bytes": 2365,
       "sha256": "ba0ed4cb0e3ba35604f77193bcd03ee336d0d687d61401fb40f8f6c2d2957507"
+    },
+    {
+      "path": "scripts/verify_public_data.py",
+      "bytes": 2072,
+      "sha256": "77258feab335dd2ee70ec8b8f78b3773e26d997205caab20254d39b8616d8d8a"
     },
     {
       "path": "scripts/verify_release.py",

@@ -173,9 +173,9 @@
     {
       "path": "results/README.md",
       "role": "release_scope_documentation",
-      "transformation": "new packaging documentation",
-      "sha256": "a445b116bf37d4cfd9d99d38e54ede6c7cfa174596da586f9b2d9dbcd8f679e7",
-      "bytes": 3997
+      "transformation": "current data-entry documentation update; scientific results unchanged",
+      "sha256": "f1900cca0ffca6f20dcbe48255d88d18d87f6d0b64cc48ed5818441b4ba581d0",
+      "bytes": 4349
     },
     {
       "path": "results/historical_control/per_file_metrics.csv",
@@ -631,5 +631,6 @@
       "sha256": "ba0ed4cb0e3ba35604f77193bcd03ee336d0d687d61401fb40f8f6c2d2957507",
       "transformation": "new packaging helper"
     }
-  ]
+  ],
+  "documentation_updated": "2026-10-18"
 }

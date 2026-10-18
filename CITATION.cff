@@ -3,6 +3,7 @@ message: "If you use this research software or its saved results, please cite th
 type: software
 title: "C2F-CSLRNet research components and saved results"
 version: "0.1.0"
+repository-code: "https://github.com/yinnierzaidemeng/C2F-CSLRNet"
 authors:
   - family-names: "Zhang"
     given-names: "Jiahao"
@@ -11,6 +12,20 @@ preferred-citation:
   type: unpublished
   title: "Component-Conditioned Coarse-to-Fine Retrieval and Dynamic Residual Scoring for Multivariate Time-Series Anomaly Detection"
   authors:
+    - family-names: "Zhu"
+      given-names: "Siyu"
     - family-names: "Zhang"
       given-names: "Jiahao"
+    - family-names: "Liu"
+      given-names: "Jie"
+    - family-names: "Yang"
+      given-names: "Yonghao"
+    - family-names: "Qian"
+      given-names: "Yanshan"
+    - family-names: "Chen"
+      given-names: "Yuli"
+    - family-names: "Miao"
+      given-names: "Lin"
+    - family-names: "Liu"
+      given-names: "Xiulei"
   year: 2026

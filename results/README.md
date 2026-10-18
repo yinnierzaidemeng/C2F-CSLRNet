@@ -1,5 +1,11 @@
 # Corrected saved results
 
+This tree preserves the 3 October 2026 software-release snapshot. The adopted
+data for the current manuscript are supplied in the
+[versioned public-data release](https://github.com/yinnierzaidemeng/C2F-CSLRNet/releases/tag/data-v1.0.0).
+Use its `PUBLIC_DATA_INDEX.json` for current paper results; the tree below
+remains available as dated provenance.
+
 Start with `index.json`. It points to five complete corrected real-data summaries and their saved per-file tables, plus the synthetic recovery and fixed-candidate weight-intervention studies. These are existing completed results, not new calculations and not a collection of only the repaired files.
 
 ## Study folders

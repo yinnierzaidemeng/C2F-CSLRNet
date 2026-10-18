@@ -1,0 +1,11 @@
+The project's original result tables, scientific configurations and validation
+records in results/, configs/ and the versioned public research-data release
+are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Attribution: the C2F-CSLRNet research team listed in CITATION.cff and the dataset citation.
+License: https://creativecommons.org/licenses/by/4.0/
+Complete terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+This data-license grant was confirmed by the rights holder on 18 October 2026.
+Software and associated software documentation use the existing MIT license.
+Separately provided scorer weights and third-party data/software retain their existing rights.

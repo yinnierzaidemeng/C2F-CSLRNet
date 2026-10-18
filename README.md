@@ -2,7 +2,10 @@
 
 Research components and saved experimental results for **Component-Conditioned
 Coarse-to-Fine Retrieval and Dynamic Residual Scoring for Multivariate
-Time-Series Anomaly Detection**, by Jiahao Zhang.
+Time-Series Anomaly Detection**.
+
+Manuscript authors: Siyu Zhu, Jiahao Zhang, Jie Liu, Yonghao Yang, Yanshan Qian,
+Yuli Chen, Lin Miao and Xiulei Liu.
 
 The method separates two decisions:
 
@@ -12,10 +15,20 @@ The method separates two decisions:
   history-conditioned bounded gate. Gate fitting uses official Tuning labels;
   Evaluation and cross-predictor transfer use the frozen gate.
 
-This is a source-and-results release prepared from the retained research
-records. It is not a newly validated, one-command reproduction of every
-training run. The paper is an unpublished manuscript; no acceptance, DOI or
-public repository URL is asserted here.
+## Current research data
+
+The versioned [public research-data release](https://github.com/yinnierzaidemeng/C2F-CSLRNet/releases/tag/data-v1.0.0)
+provides the saved evaluation tables, per-file records, scientific settings,
+provenance and safe array files supporting the current manuscript. Download
+`C2F_public_research_data_20261018.zip` and start with `PUBLIC_DATA_INDEX.json`.
+Its source bindings distinguish original saved bytes from path-normalized
+public copies. Data values retain the saved results, including unfavorable
+comparisons. See [data access and licensing](data/README.md).
+
+The numerical component source remains version 0.1.0. Release preparation
+checks source syntax, file hashes and saved-result provenance. Full training
+execution uses the benchmark, the corresponding fitted artifacts and numerical
+environment described in [implementation details](docs/IMPLEMENTATION.md).
 
 ## Contents
 
@@ -23,7 +36,8 @@ public repository URL is asserted here.
 |---|---|
 | `src/` | Reusable predictor, normalization and dynamic-scoring components |
 | `configs/` | Scientific settings without private machine paths |
-| `results/` | Complete corrected summaries and saved per-file metric tables |
+| `results/` | Preserved 3 October saved-result snapshot; current data are in the versioned release |
+| `data/` | Current public-data access, citation and licensing information |
 | `checkpoints/` | Small frozen scoring-gate and constant-mixture checkpoints |
 | `scripts/` | Standard-library file-integrity checks |
 | `docs/` | Implementation, data sources and scope notes |
@@ -41,6 +55,7 @@ packages:
 ```bash
 python scripts/verify_release.py
 python scripts/verify_artifacts.py
+python scripts/verify_public_data.py /path/to/C2F_public_research_data_20261018.zip
 ```
 
 These commands read files and compare hashes. They do not load PyTorch
@@ -55,13 +70,11 @@ The two main studies use different predictor fits:
 | Retained-predictor scoring | C2F dynamic 0.4245; fixed mixture 0.4149; learned constant 0.4146 | Compare scoring rules on the same retained residuals |
 | Unified-training structures | Full C2F 0.4153; shared relations 0.4176; radius 0 0.4165 | Compare predictor structures under the common training protocol |
 
-Do not pool the studies or calculate gains across them. Complete precision,
-all six metrics, F/C/X sensitivities and paired uncertainty are in `results/`.
-F gives equal weight to the official 180 Evaluation files. Predictor-seed and
-gate-seed variability are separate. Dynamic scoring improves the mean over
-constant mixtures in the retained cohort, but the paired intervals include
-zero; the full structure does not establish a general detection advantage over
-the simpler variants.
+The current manuscript uses equal-file evaluation over the official Evaluation
+files. Retained-predictor scoring and unified-training structures have separate
+fits and result entries. The current data release preserves complete saved
+precision, per-file outcomes and paired estimates. Predictor-seed and gate-seed
+variability remain separately identified in those records.
 
 The separate `results/retrieval/` folders contain saved synthetic relation
 recovery and fixed-candidate local-weight intervention records. They retain
@@ -92,13 +105,12 @@ not relabeled as this project's software.
 
 ## Citation and licensing
 
-Use [CITATION.cff](CITATION.cff) for the software and unpublished-manuscript
-citation. Add the actual repository URL and published-paper information only
-when they exist.
+Use [CITATION.cff](CITATION.cff) for the software and manuscript citation, and
+[the dataset citation](data/CITATION_DATA.cff) for research-data version 1.0.0.
 
-The author's original software and associated documentation use the
-[MIT License](LICENSE). Dataset, result and model-file scope is explained in
-[LICENSING.md](docs/LICENSING.md); no new license is granted over third-party
-datasets or external dependencies.
+Original software and associated documentation use the [MIT License](LICENSE).
+Original result tables, scientific configurations and validation records use
+[CC BY 4.0](LICENSE_DATA.txt). Scorer checkpoints and third-party material
+retain their existing rights, as detailed in [LICENSING.md](docs/LICENSING.md).
 
 中文说明见 [README_zh.md](README_zh.md).

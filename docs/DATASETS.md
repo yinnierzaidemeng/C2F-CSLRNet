@@ -10,9 +10,9 @@ curation license is not a blanket replacement for each underlying dataset's
 terms. This repository does not redistribute raw benchmark files.
 
 The corrected saved tables use post-training targets and no point adjustment.
-The main F view weights each of the 180 official files equally. C and X retain
-the recorded exact-content and Tuning-overlap sensitivity analyses. No files
-are removed from the primary result to improve the reported values.
+The manuscript's primary evaluation weights each official Evaluation file
+equally. The versioned public-data release retains the saved source labels,
+per-file outcomes and scientific settings supporting those results.
 
 Full-content duplicates, target support and calibration choices are part of
 the frozen experimental protocol. A new training run must reproduce those

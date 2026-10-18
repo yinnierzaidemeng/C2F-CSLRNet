@@ -8,14 +8,18 @@ They are not relicensed by this repository. See [THIRD_PARTY.md](THIRD_PARTY.md)
 and [DATASETS.md](DATASETS.md). Raw benchmark data and third-party baseline
 repositories are not bundled.
 
-Saved metric records and scorer checkpoints are supplied as research artifacts.
-No separate open-data or model license was selected in this preparation; do
-not infer that third-party data rights have been transferred or that a
-CC0/CC-BY license has been granted over the artifacts. An explicit additional
-license for non-software research artifacts can be provided by the rights
-holder separately.
+On 18 October 2026 the rights holder authorized CC BY 4.0 for this project's
+original result tables, scientific configurations and validation records.
+This covers those data in `results/`, `configs/` and the versioned public-data
+release. See `LICENSE_DATA.txt` and the dataset's own license notice.
+
+Scorer checkpoint files retain their existing rights and are supplied as
+research artifacts. The additional data license covers the result/configuration
+records, while software uses MIT and checkpoint reuse retains its existing
+permission scope. Third-party benchmark data and dependencies retain their
+respective terms.
 
 Source-level inspection and the absence of a copyright header do not prove
 ownership. The author should confirm institutional and collaborator rights
-before publishing. This local preparation has not uploaded files or created a
-public repository.
+before publishing material beyond the stated scope. The current public release
+records the software/data distinction explicitly.
